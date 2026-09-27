@@ -1,0 +1,40 @@
+# 校验并发布热词：PR 只校验；合并到 main 或每天定时（清理过期词）时生成、签名并推到 dist 分支。
+# Validate and publish: pull requests are checked only; pushes to main and a daily run (to drop expired words)
+# build, sign and push to the dist branch, which clients read.
+name: publish
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 19 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate
+        run: python3 tools/build.py --check
+      - name: Build and sign
+        if: github.event_name != 'pull_request'
+        env:
+          HOTWORDS_SIGNING_KEY: ${{ secrets.HOTWORDS_SIGNING_KEY }}
+        run: |
+          pip install --quiet cryptography
+          python3 tools/build.py
+      - name: Publish to the dist branch
+        if: github.event_name != 'pull_request'
+        run: |
+          cd dist
+          git init -q -b dist
+          git config user.name "hotwords-bot"
+          git config user.email "hotwords-bot@users.noreply.github.com"
+          git add hotwords.tsv hotwords.tsv.sig
+          git commit -q -m "hotwords $(sed -n 's/^#! version //p' hotwords.tsv)"
+          git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" dist
