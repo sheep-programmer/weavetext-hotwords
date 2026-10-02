@@ -1,0 +1,29 @@
+Attribution and licenses: https://github.com/sheep-programmer/weavetext-hotwords/blob/main/SOURCES.md
+Original WeaveText curated terms: CC0-1.0. Imported data retain their own licenses.
+Wanxiang Pinyin: amzxyz and rime-wanxiang contributors, https://github.com/amzxyz/rime-wanxiang
+Wanxiang license: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+Wanxiang revision: 908108a09121aaf7ba2cad1fcfbe71b427ea9090; baseline/annotation: 516b1bb66bdce1fd5785f5481c415f13ff736548.
+Modified: selected supplementary words, removed built-in duplicates, normalized pinyin, adjusted frequency.
+THUOCL: THUNLP, https://github.com/thunlp/THUOCL; revision a30ce79d895d01ab5132a5c74c29703ff7efb4cc.
+THUOCL changes: selected IT terms, annotated with Wanxiang data under CC BY 4.0, normalized and weighted.
+MIT License
+
+Copyright (c) 2018 THUNLP
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

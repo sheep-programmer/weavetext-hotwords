@@ -35,6 +35,6 @@ jobs:
           git init -q -b dist
           git config user.name "hotwords-bot"
           git config user.email "hotwords-bot@users.noreply.github.com"
-          git add hotwords.tsv hotwords.tsv.sig
+          git add .
           git commit -q -m "hotwords $(sed -n 's/^#! version //p' hotwords.tsv)"
           git push -q --force "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}" dist

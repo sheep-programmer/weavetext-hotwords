@@ -12,6 +12,8 @@ WeaveText hot words: validate words/*.tsv, merge, dedupe, drop expired rows, wri
 """
 import base64
 import datetime as dt
+import hashlib
+import json
 import os
 import sys
 from pathlib import Path
@@ -73,6 +75,17 @@ def load(errors):
 def main():
     check = "--check" in sys.argv
     errors = []
+    if list((ROOT / "words").glob("imported-*.tsv")):
+        try:
+            manifest=json.loads((ROOT / "sources.json").read_text())
+            for source in manifest["sources"]:
+                path=ROOT/source["output"]
+                if hashlib.sha256(path.read_bytes()).hexdigest()!=source["output_sha256"]:
+                    errors.append(f"{path.name}: imported data changed; reproduce and review sources.json")
+            for name in ["NOTICE","SOURCES.md","LICENSES/CC-BY-4.0.txt","LICENSES/THUOCL-MIT.txt"]:
+                if not (ROOT/name).is_file():errors.append(f"missing attribution: {name}")
+        except (ValueError,KeyError,OSError) as e:
+            errors.append(f"source manifest: {e}")
     rows = load(errors)
     if errors:
         print("\n".join(errors), file=sys.stderr)
@@ -88,6 +101,8 @@ def main():
         return
     version = dt.datetime.now(dt.timezone.utc).strftime("%Y%m%d%H")
     lines = ["#! weavetext-hotwords 1", f"#! version {version}"]
+    notice=ROOT/"NOTICE"
+    if notice.is_file():lines += ["# " + line for line in notice.read_text().splitlines()]
     lines += [f"{r['word']}\t{r['py']}\t{r['w']}\t{r['exp']}" for r in live]
     data = ("\n".join(lines) + "\n").encode("utf-8")
     key = os.environ.get("HOTWORDS_SIGNING_KEY", "").strip()
@@ -100,6 +115,10 @@ def main():
     dist.mkdir(exist_ok=True)
     (dist / "hotwords.tsv").write_bytes(data)
     (dist / "hotwords.tsv.sig").write_text(sk.sign(data).hex() + "\n")
+    import shutil
+    for name in ["SOURCES.md","NOTICE","sources.json"]:
+        if (ROOT/name).is_file():shutil.copy2(ROOT/name,dist/name)
+    if (ROOT/"LICENSES").is_dir():shutil.copytree(ROOT/"LICENSES",dist/"LICENSES",dirs_exist_ok=True)
     print(f"wrote dist/hotwords.tsv (version {version}, {len(data)} bytes) and its signature")
 
 
