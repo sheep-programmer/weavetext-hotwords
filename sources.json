@@ -1,0 +1,53 @@
+{
+  "generated": "2026-10-02",
+  "baseline": {
+    "project": "amzxyz/rime-wanxiang",
+    "revision": "516b1bb66bdce1fd5785f5481c415f13ff736548",
+    "files": [
+      "dicts/zi.dict.yaml",
+      "dicts/jichu.dict.yaml",
+      "dicts/diming.dict.yaml",
+      "dicts/renming.dict.yaml",
+      "dicts/mingren.dict.yaml",
+      "dicts/shici.dict.yaml",
+      "dicts/lianxiang.dict.yaml",
+      "dicts/duoyin.dict.yaml"
+    ],
+    "sha256": {
+      "zi.dict.yaml": "d69bfa6c4a225b589ca5c59cf6e0c2ad0a2969ad5935bac571e2be0825c246e1",
+      "jichu.dict.yaml": "1f287c9e8a5b5fbc78fe931e94379bcf294d7547fc667461e49c41c1e9ad32e6",
+      "diming.dict.yaml": "3cb56ab22adcc62a73192fc5662cae2b7dab7f07cf1a872c79379cf035a3b33f",
+      "renming.dict.yaml": "0e4c4e2ce23e42f7ef87acedb9edba9f25c18b5c590707e3863bd9ea765686a4",
+      "mingren.dict.yaml": "80f169636d768114e97cf11ccf652333ada4db2e235f47aeba7baf808256338f",
+      "shici.dict.yaml": "376f47b5498c05bbcb73334218371aae8771ed9d73ecf60567a06c281a161018",
+      "lianxiang.dict.yaml": "2e77347e32318d77320abdee105db630620e7e6a11fd943ccde5e80a1536f41f",
+      "duoyin.dict.yaml": "3e3b379c7a66ccc8ab22f9f5efe482fdb2d0fb7ad8b7cb33acc5cc9450c79bb6"
+    }
+  },
+  "sources": [
+    {
+      "id": "wanxiang-new",
+      "project": "amzxyz/rime-wanxiang",
+      "revision": "908108a09121aaf7ba2cad1fcfbe71b427ea9090",
+      "license": "CC-BY-4.0",
+      "file": "dicts/jichu.dict.yaml",
+      "sha256": "9499687cfe3b90d69833e4dce9b2b8d3e1472f9ba0f7da32f40aa0c76482f325",
+      "rows": 24,
+      "output": "words/imported-wanxiang-new.tsv",
+      "output_sha256": "28dca8976650c50015ecabc87a75fb482d5ea21bc4ae4c8827c61993cee46508"
+    },
+    {
+      "id": "thuocl-it",
+      "project": "thunlp/THUOCL",
+      "revision": "a30ce79d895d01ab5132a5c74c29703ff7efb4cc",
+      "license": "MIT",
+      "file": "data/THUOCL_IT.txt",
+      "sha256": "e8cd42c9f5559735fa3bfb91515cbe051f991efd4a803038a1d5c0da85af3526",
+      "rows": 1200,
+      "annotation": "weave-dict dictgen annotate, baseline Wanxiang CC-BY-4.0; strip tones, filter non-CJK and built-in duplicates, cap frequency",
+      "output": "words/imported-thuocl-it.tsv",
+      "output_sha256": "d361bb40daea7b492bbb98f8edf06d3145d8019213ff1db4934f9c1a6ecdbd58"
+    }
+  ],
+  "annotation_sha256": "b2c236e6b67ca60e4457ccf2bbe5c358c35f9e6db4e84f848be6250fbca3f401"
+}
