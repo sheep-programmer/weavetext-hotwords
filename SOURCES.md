@@ -6,8 +6,8 @@
 |---|---|---|---|
 | 原有示例与 `words/2026-10.tsv` | WeaveText contributors 独立整理 | CC0-1.0 | 公开常见术语，人工注音 |
 | `words/2026-10-memes.tsv` | WeaveText contributors 独立整理的网络热梗 | CC0-1.0 | 只收常见说法，人工核对拼音；不收侮辱、低俗、政治与针对真人的梗 |
-| `words/imported-wiktionary-slang.tsv` | [英文维基词典 Category:Chinese internet slang](https://en.wiktionary.org/wiki/Category:Chinese_internet_slang)，每个词条的固定版本号见 `tools/import_wiki.py` | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt) | 人工审阅白名单；带粗俗、贬义、冒犯等标签的词条拒收；繁体词条转简体，拼音取自词条的普通话读音并去声调；去掉内置词库和手工词表已有的词 |
-| `words/imported-wikipedia-slang.tsv` | [中文维基百科「中国大陆网络用语列表」版本 94713536](https://zh.wikipedia.org/w/index.php?oldid=94713536) | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)；注音所用万象数据为 CC-BY-4.0 | 只取日常用语类章节的人工审阅白名单；用 `dictgen annotate` 按万象注音后人工核对；去掉已有的词 |
+| `words/imported-wiktionary-slang.tsv` | [英文维基词典 Category:Chinese internet slang](https://en.wiktionary.org/wiki/Category:Chinese_internet_slang)，每个词条的固定版本号见 `tools/import_wiki.py` | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt) | 人工审阅白名单；带粗俗、贬义、冒犯等标签的词条拒收；繁体词条转简体，拼音取自词条的普通话读音并去声调（词条拼音不完整的几条改用 `dictgen annotate` 注音后人工核对）；去掉内置词库和手工词表已有的词 |
+| `words/imported-wikipedia-slang.tsv` | 中文维基百科「[中国大陆网络用语列表](https://zh.wikipedia.org/w/index.php?oldid=94713536)」「[汉语盘点](https://zh.wikipedia.org/w/index.php?oldid=93299004)」「[咬文嚼字](https://zh.wikipedia.org/w/index.php?oldid=94531753)」的固定版本 | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)；注音所用万象数据为 CC-BY-4.0 | 人工审阅白名单：列表只取日常用语类章节，另两篇只取历年「十大网络用语」「十大流行语」里的网络用语；用 `dictgen annotate` 按万象注音后人工核对；去掉已有的词 |
 | `words/imported-wanxiang-new.tsv` | [amzxyz/rime-wanxiang](https://github.com/amzxyz/rime-wanxiang/tree/908108a09121aaf7ba2cad1fcfbe71b427ea9090)，`dicts/jichu.dict.yaml` | [CC-BY-4.0](LICENSES/CC-BY-4.0.txt) | 去声调、ü 写 v，排除内置词库已有词、过滤非中文与无效音节，保留新增且有一定频率的词，压低权重 |
 | `words/imported-thuocl-it.tsv` | [THUNLP / THUOCL](https://github.com/thunlp/THUOCL/tree/a30ce79d895d01ab5132a5c74c29703ff7efb4cc)，`data/THUOCL_IT.txt`；Copyright © 2018 THUNLP | [MIT](LICENSES/THUOCL-MIT.txt)；补充注音所用万象数据保留 CC-BY-4.0 | 用织文 `dictgen annotate` 按内置万象词表最长匹配注音；去声调，过滤非中文、未能注音的词和已内置词，选取 1200 项并降低权重 |
 

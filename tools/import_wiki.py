@@ -85,34 +85,78 @@ WIKTIONARY={
     '电子包浆':('電子包漿',78686522,'dian zi bao jiang'),
     '鲁蛇':('魯蛇',87969877,'lu she'),
     '麦门':('麥門',87445659,'mai men'),
+    # 词条拼音写成汉字缩写或整句带逗号时，改用 dictgen annotate 注音并人工核对。
+    # Where the entry abbreviates pinyin with characters or spans a comma, dictgen annotate supplies it, checked by hand.
+    '了个寂寞':('了個寂寞',63016513,'le ge ji mo','annotated'),
+    '中回力镖':('中回力鏢',87395370,'zhong hui li biao','annotated'),
+    '智熄':('智熄',88657214,'zhi xi','annotated'),
+    '忍一时越想越气':('忍一時越想越氣，退一步越想越虧',90751169,'ren yi shi yue xiang yue qi','annotated'),
+    '退一步越想越亏':('忍一時越想越氣，退一步越想越虧',90751169,'tui yi bu yue xiang yue kui','annotated'),
+    '听君一席话如听一席话':('聽君一席話，如聽一席話',91719321,'ting jun yi xi hua ru ting yi xi hua','annotated'),
 }
-# 简体词 → (条目里的写法, 审阅过的拼音；dictgen annotate 按万象注音后人工核对)。
-# Simplified word → (form in the article, reviewed pinyin; annotated by dictgen with Wanxiang, then checked by hand).
+# 维基百科条目与固定版本：网络用语列表，以及历年「十大网络用语」「十大流行语」。
+# Wikipedia articles and pinned revisions: the slang list and the yearly top-ten internet terms and buzzwords.
+WIKIPEDIA_PAGES={'list':('中国大陆网络用语列表',94713536),'hypd':('汉语盘点',93299004),'ywjz':('咬文嚼字',94531753)}
+# 简体词 → (条目, 条目里的写法, 审阅过的拼音；dictgen annotate 按万象注音后人工核对)。
+# Simplified word → (article, form in it, reviewed pinyin; annotated by dictgen with Wanxiang, then checked by hand).
 WIKIPEDIA={
-    '画美不看':('画美不看','hua mei bu kan'),
-    '我伙惊':('我伙惊','wo huo jing'),
-    '啊痛悟蜡':('啊痛悟蜡','a tong wu la'),
-    '百错仍硕':('百错仍硕','bai cuo reng shuo'),
-    '吸猫':('吸猫','xi mao'),
-    '吸狗':('吸狗','xi gou'),
-    '圆头耄耋':('圆头耄耋','yuan tou mao die'),
-    '旋转猫':('旋转猫','xuan zhuan mao'),
-    '主要看气质':('主要看气质','zhu yao kan qi zhi'),
-    '还有这种操作':('还有这种操作','hai you zhe zhong cao zuo'),
-    '贫穷限制了我的想象力':('贫穷限制了我的想象力','pin qiong xian zhi le wo de xiang xiang li'),
-    '高速运转的机械进入中国':('高速运转的机械进入中国','gao su yun zhuan de ji xie jin ru zhong guo'),
-    '爱你老己':('爱你老己','ai ni lao ji'),
-    '我劝你善良':('我劝你善良','wo quan ni shan liang'),
-    '误闯天家':('误闯天家','wu chuang tian jia'),
-    '一首凉凉送给你':('一首涼涼送給你','yi shou liang liang song gei ni'),
-    '世界是个草台班子':('世界是个草台班子','shi jie shi ge cao tai ban zi'),
-    '低智商的善良':('低智商的善良','di zhi shang de shan liang'),
-    '你已急哭':('你已急哭','ni yi ji ku'),
-    '回笼漂':('回籠漂','hui long piao'),
-    '京爷':('京爷','jing ye'),
-    '花西币':('花西币','hua xi bi'),
-    '力工思维':('力工思维','li gong si wei'),
-    '山姆规则':('山姆规则','shan mu gui ze'),
+    '画美不看':('list','画美不看','hua mei bu kan'),
+    '我伙惊':('list','我伙惊','wo huo jing'),
+    '啊痛悟蜡':('list','啊痛悟蜡','a tong wu la'),
+    '百错仍硕':('list','百错仍硕','bai cuo reng shuo'),
+    '吸猫':('list','吸猫','xi mao'),
+    '吸狗':('list','吸狗','xi gou'),
+    '圆头耄耋':('list','圆头耄耋','yuan tou mao die'),
+    '旋转猫':('list','旋转猫','xuan zhuan mao'),
+    '主要看气质':('list','主要看气质','zhu yao kan qi zhi'),
+    '还有这种操作':('list','还有这种操作','hai you zhe zhong cao zuo'),
+    '贫穷限制了我的想象力':('list','贫穷限制了我的想象力','pin qiong xian zhi le wo de xiang xiang li'),
+    '高速运转的机械进入中国':('list','高速运转的机械进入中国','gao su yun zhuan de ji xie jin ru zhong guo'),
+    '爱你老己':('list','爱你老己','ai ni lao ji'),
+    '我劝你善良':('list','我劝你善良','wo quan ni shan liang'),
+    '误闯天家':('list','误闯天家','wu chuang tian jia'),
+    '一首凉凉送给你':('list','一首涼涼送給你','yi shou liang liang song gei ni'),
+    '世界是个草台班子':('list','世界是个草台班子','shi jie shi ge cao tai ban zi'),
+    '低智商的善良':('list','低智商的善良','di zhi shang de shan liang'),
+    '你已急哭':('list','你已急哭','ni yi ji ku'),
+    '回笼漂':('list','回籠漂','hui long piao'),
+    '京爷':('list','京爷','jing ye'),
+    '花西币':('list','花西币','hua xi bi'),
+    '力工思维':('list','力工思维','li gong si wei'),
+    '山姆规则':('list','山姆规则','shan mu gui ze'),
+    '躺着也中枪':('hypd','躺着也中枪','tang zhe ye zhong qiang'),
+    '高端大气上档次':('hypd','高端大气上档次','gao duan da qi shang dang ci'),
+    '小伙伴们都惊呆了':('hypd','小伙伴们都惊呆了','xiao huo ban men dou jing dai le'),
+    '我也是醉了':('hypd','我也是醉了','wo ye shi zui le'),
+    '有钱就是任性':('hypd','有钱就是任性','you qian jiu shi ren xing'),
+    '挖掘机技术哪家强':('hypd','挖掘机技术哪家强','wa jue ji ji shu na jia qiang'),
+    '我读书少你别骗我':('hypd','我读书少你别骗我','wo du shu shao ni bie pian wo'),
+    '画面太美我不敢看':('hypd','画面太美我不敢看','hua mian tai mei wo bu gan kan'),
+    '世界那么大我想去看看':('hypd','世界那么大我想去看看','shi jie na me da wo xiang qu kan kan'),
+    '你们城里人真会玩儿':('hypd','你们城里人真会玩儿','ni men cheng li ren zhen hui wan er'),
+    '吓死宝宝了':('hypd','吓死宝宝了','xia si bao bao le'),
+    '内心几乎是崩溃的':('hypd','内心几乎是崩溃的','nei xin ji hu shi beng kui de'),
+    '定个小目标':('hypd','定个小目标','ding ge xiao mu biao'),
+    '你的良心不会痛吗':('hypd','你的良心不会痛吗','ni de liang xin bu hui tong ma'),
+    '确认过眼神':('hypd','确认过眼神','que ren guo yan shen'),
+    '好嗨哟':('hypd','好嗨哟','hao hai yo'),
+    '是个狼人':('hypd','是个狼人','shi ge lang ren'),
+    '伤害性不高侮辱性极强':('hypd','伤害性不高侮辱性极强','shang hai xing bu gao wu ru xing ji qiang'),
+    '我看不懂但我大受震撼':('hypd','我看不懂但我大受震撼','wo kan bu dong dan wo da shou zhen han'),
+    '含金量还在上升':('hypd','含金量还在上升','han jin liang hai zai shang sheng'),
+    '偏偏你最争气':('hypd','偏偏你最争气','pian pian ni zui zheng qi'),
+    '敬自己一杯':('hypd','敬自己一杯','jing zi ji yi bei'),
+    '助我破鼎':('hypd','助我破鼎','zhu wo po ding'),
+    '千百次练习只为这一刻':('hypd','千百次练习只为这一刻','qian bai ci lian xi zhi wei zhe yi ke'),
+    '如何呢又能怎':('hypd','如何呢又能怎','ru he ne you neng zen'),
+    '村咖':('hypd','村咖','cun ka'),
+    '浪浪山小妖怪':('hypd','浪浪山小妖怪','lang lang shan xiao yao guai'),
+    '我太南了':('hypd','我太南了','wo tai nan le'),
+    '我不要你觉得':('ywjz','我不要你觉得','wo bu yao ni jue de'),
+    '我要我觉得':('ywjz','我要我觉得','wo yao wo jue de'),
+    '赛博对账':('ywjz','赛博对账','sai bo dui zhang'),
+    '融梗':('ywjz','融梗','rong geng'),
+    '神马都是浮云':('ywjz','神马都是浮云','shen ma dou shi fu yun'),
 }
 REFUSED={'derogatory','vulgar','offensive','pejorative','euphemistic','euphemism','politics','ethnic slur','slur',
     'sexual','dysphemistic','sarcastic','swear word','obscene','misogynistic','racist','homophobic'}
@@ -128,11 +172,11 @@ def get(url,params=None):
 
 def fetch(cache,manifest):
     cache.mkdir(parents=True,exist_ok=True)
-    wiki=next(s for s in manifest['sources'] if s['id']=='wikipedia-slang')
-    (cache/'wikipedia-slang.wiki').write_bytes(get('https://zh.wikipedia.org/w/index.php?'+urllib.parse.urlencode(
-        {'oldid':wiki['revision'],'action':'raw'})))
+    for key,(_,oldid) in WIKIPEDIA_PAGES.items():
+        (cache/f'wikipedia-{key}.wiki').write_bytes(get('https://zh.wikipedia.org/w/index.php?'+urllib.parse.urlencode(
+            {'oldid':oldid,'action':'raw'})))
     pages={}
-    revids=[str(rev) for _,rev,_ in WIKTIONARY.values()]
+    revids=sorted({str(row[1]) for row in WIKTIONARY.values()})
     for i in range(0,len(revids),50):
         reply=json.loads(get('https://en.wiktionary.org/w/api.php',{'action':'query','prop':'revisions','rvprop':'ids|content',
             'rvslots':'main','revids':'|'.join(revids[i:i+50]),'format':'json','formatversion':'2'}))
@@ -152,22 +196,30 @@ def chinese_section(text):
     return text[start:start+3+end.start()] if end else text[start:]
 
 def wiktionary_rows(pages):
-    for word,(title,revid,reviewed) in WIKTIONARY.items():
+    for word,(title,revid,reviewed,*annotated) in WIKTIONARY.items():
         page=pages[title]
         assert page['revid']==revid,f'{title}: revision {page["revid"]} != {revid}'
         section=chinese_section(page['text'])
         labels={l.strip() for m in re.findall(r'\{\{(?:lb|lbl|label)\|zh\|([^}]*)\}\}',section) for l in m.split('|')}
         assert not labels&REFUSED,f'{title}: labelled {labels&REFUSED}'
+        if annotated:
+            forms=re.search(r'\{\{zh-forms[^}]*\|s=([^|}\n]+)',section)
+            assert word in re.sub(r'[，,]','',forms.group(1) if forms else title),f'{title}: {word} not in the entry'
+            yield word,reviewed
+            continue
         pron=re.search(r'\{\{zh-pron[^}]*?\|m=([^|}\n]*)',section,re.S)
         assert pron,f'{title}: no Mandarin pronunciation'
         letters=re.sub(r'[^a-z]','',toneless(pron.group(1).split(',')[0]))
         assert letters==reviewed.replace(' ',''),f'{title}: pinyin {letters} != {reviewed}'
         yield word,reviewed
 
-def wikipedia_rows(text):
-    plain=re.sub(r'-\{(.*?)\}-',r'\1',re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]',r'\1',text))
-    for word,(form,reviewed) in WIKIPEDIA.items():
-        assert form in plain,f'{form}: not in the pinned article'
+def wikipedia_rows(texts):
+    # 去掉链接、繁简标记和标点再找，「世界那么大，我想去看看」也能对上。
+    # Search without link markup, conversion marks and punctuation so comma-split phrases still match.
+    plain={key:re.sub(r'[\s，,、“”"]','',re.sub(r'-\{(.*?)\}-',r'\1',re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]',r'\1',text)))
+        for key,text in texts.items()}
+    for word,(page,form,reviewed) in WIKIPEDIA.items():
+        assert form in plain[page],f'{form}: not in the pinned {WIKIPEDIA_PAGES[page][0]}'
         yield word,reviewed
 
 def main():
@@ -176,14 +228,15 @@ def main():
         fetch(Path(sys.argv[2]),manifest);return
     cache=Path(sys.argv[1])
     sources={s['id']:s for s in manifest['sources']}
-    for name,source in [('wiktionary-slang.json','wiktionary-slang'),('wikipedia-slang.wiki','wikipedia-slang')]:
-        assert hashlib.sha256((cache/name).read_bytes()).hexdigest()==sources[source]['sha256'],f'upstream hash: {name}'
+    for source in ('wiktionary-slang','wikipedia-slang'):
+        for name,digest in sources[source]['sha256'].items():
+            assert hashlib.sha256((cache/name).read_bytes()).hexdigest()==digest,f'upstream hash: {name}'
     # 手工词表已有的词不重复导入。 Skip words the hand-curated lists already carry.
     taken={line.split('\t')[0] for path in (ROOT/'words').glob('*.tsv') if not path.name.startswith('imported-')
         for line in path.read_text(encoding='utf-8').splitlines() if line and not line.startswith('#')}
     pages=json.loads((cache/'wiktionary-slang.json').read_text(encoding='utf-8'))
     batches=[('wiktionary-slang',wiktionary_rows(pages)),
-        ('wikipedia-slang',wikipedia_rows((cache/'wikipedia-slang.wiki').read_text(encoding='utf-8')))]
+        ('wikipedia-slang',wikipedia_rows({key:(cache/f'wikipedia-{key}.wiki').read_text(encoding='utf-8') for key in WIKIPEDIA_PAGES}))]
     for source,rows in batches:
         kept=[]
         for word,py in rows:

@@ -54,25 +54,41 @@
       "url": "https://en.wiktionary.org/wiki/Category:Chinese_internet_slang",
       "revision": "per entry, pinned in tools/import_wiki.py",
       "license": "CC-BY-SA-4.0",
-      "file": "wiktionary-slang.json",
-      "sha256": "4000ff61ca6379967aac7a575a0029cd6dde89553219cde66eda404ae38cc472",
-      "rows": 63,
+      "file": [
+        "wiktionary-slang.json"
+      ],
+      "sha256": {
+        "wiktionary-slang.json": "695554ddba75f2ddedf4c0e9c7a5714473a6b4145e43d6337106ebfa1c8d2bff"
+      },
+      "rows": 69,
       "annotation": "reviewed allowlist; Mandarin pinyin from each entry's zh-pron, toneless; entries labelled vulgar/derogatory/offensive refused; built-in and hand-curated duplicates removed",
       "output": "words/imported-wiktionary-slang.tsv",
-      "output_sha256": "e3daf78dec9a011035d76f41fe2328509584be53e66aedf9dcf943247d9d8a09"
+      "output_sha256": "71b9b1e0aa6707c56d1176246e8a58fc0e108f053ce446a66ae16de8bec699c3"
     },
     {
       "id": "wikipedia-slang",
-      "project": "Chinese Wikipedia, 中国大陆网络用语列表",
+      "project": "Chinese Wikipedia: 中国大陆网络用语列表, 汉语盘点, 咬文嚼字",
       "url": "https://zh.wikipedia.org/w/index.php?oldid=94713536",
-      "revision": "94713536",
+      "revision": {
+        "中国大陆网络用语列表": 94713536,
+        "汉语盘点": 93299004,
+        "咬文嚼字": 94531753
+      },
       "license": "CC-BY-SA-4.0",
-      "file": "wikipedia-slang.wiki",
-      "sha256": "13e6f9b9a7f26dbf0efd0612db9eef241480a1aa9ee64b078342d50c6eb62b3c",
-      "rows": 24,
-      "annotation": "reviewed allowlist from everyday-language sections; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
+      "file": [
+        "wikipedia-list.wiki",
+        "wikipedia-hypd.wiki",
+        "wikipedia-ywjz.wiki"
+      ],
+      "sha256": {
+        "wikipedia-list.wiki": "13e6f9b9a7f26dbf0efd0612db9eef241480a1aa9ee64b078342d50c6eb62b3c",
+        "wikipedia-hypd.wiki": "39fda6c1d0de0bcfb450d8e711a6d5b36a7a9d03b6bd89a720d0af4eca92db68",
+        "wikipedia-ywjz.wiki": "f9ecb3951d7fbb4f0a7f666667f357edf003a3098fcad8308f806dabcb64721d"
+      },
+      "rows": 57,
+      "annotation": "reviewed allowlist from the slang list's everyday-language sections and the yearly top-ten internet terms/buzzwords; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
       "output": "words/imported-wikipedia-slang.tsv",
-      "output_sha256": "160f5c713ca6ecec9d033f1c9c379f1146ed012a26337718da1cf6a7e56c2846"
+      "output_sha256": "eca30c594edd60c0a7e8a1771eb0e3a15338cbb6c1ce94ec6664011bcfff590c"
     }
   ],
   "annotation_sha256": "b2c236e6b67ca60e4457ccf2bbe5c358c35f9e6db4e84f848be6250fbca3f401"
