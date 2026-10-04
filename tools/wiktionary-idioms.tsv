@@ -1,0 +1,944 @@
+# 维基词典谚语、歇后语、成语与惯用语的人工审阅白名单：类别、简体词、词条、固定版本、拼音（取自词条，核对过）。
+# Reviewed allowlist of Wiktionary proverbs, xiehouyu, chengyu and idioms: category, simplified word, entry, pinned revision, pinyin (from the entry, checked).
+chengyu	一叶蔽目不见泰山	一葉蔽目，不見泰山	73762089	yi ye bi mu bu jian tai shan
+chengyu	一指蔽目不见泰山	一指蔽目，不見泰山	73762090	yi zhi bi mu bu jian tai shan
+chengyu	一日千秋	一日千秋	92266010	yi ri qian qiu
+chengyu	一时苟安	一時苟安	67396025	yi shi gou an
+chengyu	一枪毙敌	一槍斃敵	76361605	yi qiang bi di
+chengyu	一毛一样	一毛一樣	74184200	yi mao yi yang
+chengyu	一法通万法通	一法通，萬法通	90310183	yi fa tong wan fa tong
+chengyu	一法通百法通	一法通，百法通	90310185	yi fa tong bai fa tong
+chengyu	一波未平一波再起	一波未平，一波再起	73762099	yi bo wei ping yi bo zai qi
+chengyu	一言两句	一言兩句	60796587	yi yan liang ju
+chengyu	一言立信	一言立信	60796583	yi yan li xin
+chengyu	一退六二五	一退六二五	80550029	yi tui liu er wu
+chengyu	万代不易	萬代不易	84081871	wan dai bu yi
+chengyu	三七二十一	三七二十一	73619987	san qi er shi yi
+chengyu	三头两日	三頭兩日	76118736	san tou liang ri
+chengyu	三言二语	三言二語	90364117	san yan er yu
+chengyu	上不着天下不着地	上不著天，下不著地	60795072	shang bu zhao tian xia bu zhao di
+chengyu	上谄下骄	上諂下驕	60795070	shang chan xia jiao
+chengyu	下乔木入幽谷	下喬木入幽谷	60796639	xia qiao mu ru you gu
+chengyu	不世之材	不世之材	65623716	bu shi zhi cai
+chengyu	不加思索	不加思索	81403671	bu jia si suo
+chengyu	不待蓍龟	不待蓍龜	63493946	bu dai shi gui
+chengyu	不忍坐视	不忍坐視	60816892	bu ren zuo shi
+chengyu	不愁衣食	不愁衣食	60793291	bu chou yi shi
+chengyu	不知分寸	不知分寸	60796122	bu zhi fen cun
+chengyu	不能赞一辞	不能贊一辭	60796207	bu neng zan yi ci
+chengyu	不良于行	不良於行	87610084	bu liang yu xing
+chengyu	不走寻常路	不走尋常路	82308594	bu zou xun chang lu
+chengyu	不足轻重	不足輕重	60796116	bu zu qing zhong
+chengyu	东海捞针	東海撈針	73762397	dong hai lao zhen
+chengyu	东瓜茄子	東瓜茄子	81705685	dong gua qie zi
+chengyu	东西南北中	東西南北中	74121488	dong xin an bei zhong
+chengyu	东观西望	東觀西望	60795674	dong guan xi wang
+chengyu	丢入爪哇国里	丟入爪哇國裡	79200322	diu ru zhao wa guo li
+chengyu	严以律己宽以待人	嚴以律己，寬以待人	60797721	yan yi lv ji kuan yi dai ren
+chengyu	临死不恐	臨死不恐	62744590	lin si bu kong
+chengyu	临难不恐	臨難不恐	62745182	lin nan bu kong
+chengyu	为反而反	為反而反	66606011	wei fan er fan
+chengyu	为民除患	為民除患	92945765	wei min chu huan
+chengyu	为渊驱鱼为丛驱雀	為淵驅魚，為叢驅雀	60799298	wei yuan qu yu wei cong qu que
+chengyu	丽日光天	麗日光天	60796087	li ri guang tian
+chengyu	举一赅百	舉一賅百	92015744	ju yi gai bai
+chengyu	乖觉可喜	乖覺可喜	61408971	guai jue ke xi
+chengyu	乘胜直追	乘勝直追	60799210	cheng sheng zhi zhui
+chengyu	事不关己己不劳心	事不關己，己不勞心	63748393	shi bu guan ji ji bu lao xin
+chengyu	人中豪杰	人中豪傑	65152381	ren zhong hao jie
+chengyu	人同此心心同此理	人同此心，心同此理	60797497	ren tong ci xin xin tong ci li
+chengyu	仕途多蹇	仕途多蹇	60795767	shi tu duo jian
+chengyu	付之厥如	付之厥如	65658828	fu zhi jue ru
+chengyu	以盲辨色	以盲辨色	81704164	yi mang bian se
+chengyu	低枝倒挂	低枝倒掛	74194328	di zhi dao gua
+chengyu	作贼心虚	作賊心虛	90275139	zuo zei xin xu
+chengyu	债务累累	債務累累	60795123	zhai wu lei lei
+chengyu	傲慢不恭	傲慢不恭	60798938	ao man bu gong
+chengyu	傲气十足	傲氣十足	60798302	ao qi shi zu
+chengyu	傲骨嶙峋	傲骨嶙峋	60799520	ao gu lin xun
+chengyu	先甘后苦	先甘後苦	78603927	xiang an hou ku
+chengyu	光彩耀目	光彩耀目	73762451	guang cai yao mu
+chengyu	入境随俗	入境隨俗	83464596	ru jing sui su
+chengyu	八方受敌	八方受敵	60799303	ba fang shou di
+chengyu	内外姻党	內外姻黨	76205843	nei wai yin dang
+chengyu	冰炭不同器	冰炭不同器	61409097	bing tan bu tong qi
+chengyu	冰炭不同炉	冰炭不同爐	73762416	bing tan bu tong lu
+chengyu	凤凰在笯	鳳凰在笯	74179267	feng huang zai nu
+chengyu	出其不意攻其无备	出其不意，攻其無備	73762195	chu qi bu yi gong qi wu bei
+chengyu	出群拔萃	出群拔萃	92759863	chu qun ba cui
+chengyu	凿空之论	鑿空之論	60797203	zao kong zhi lun
+chengyu	刀俎余生	刀俎餘生	73762115	dao zu yu sheng
+chengyu	切切私语	切切私語	73761796	qie qie si yu
+chengyu	别抱琵琶	別抱琵琶	74188781	bie bao pi pa
+chengyu	前所未料	前所未料	60798542	qian suo wei liao
+chengyu	力学不倦	力學不倦	60798400	li xue bu juan
+chengyu	劝和促谈	勸和促談	66240340	quan he cu tan
+chengyu	动人肺腑	動人肺腑	90926421	dong ren fei fu
+chengyu	包退包换	包退包換	80457582	bao tui bao huan
+chengyu	半死不拉活	半死不拉活	91734629	ban si bu la huo
+chengyu	单兵独马	單兵獨馬	73629477	dan bing du ma
+chengyu	博学强记	博學強記	73946458	bo xue qiang ji
+chengyu	即以其人之道还治其人之身	即以其人之道，還治其人之身	73761933	ji yi qi ren zhi dao huan zhi qi ren zhi shen
+chengyu	厌旧贪新	厭舊貪新	66046325	yan jiu tan xin
+chengyu	取之不尽用之有余	取之不盡，用之有餘	73762125	qu zhi bu jin yong zhi you yu
+chengyu	取之无禁用之不竭	取之無禁，用之不竭	73762121	qu zhi wu jin yong zhi bu jie
+chengyu	变起萧墙	變起蕭牆	73762491	bian qi xiao qiang
+chengyu	古今东西	古今東西	87444883	gu jin dong xi
+chengyu	可造之材	可造之材	60798159	ke zao zhi cai
+chengyu	叹为听止	嘆為聽止	71654851	tan wei ting zhi
+chengyu	吃喝拉撒睡	吃喝拉撒睡	78610367	chi he la sa shui
+chengyu	吃喝玩乐行	吃喝玩樂行	74128595	chi he wan le xing
+chengyu	合两为一	合兩為一	73762300	he liang wei yi
+chengyu	后果前因	後果前因	73762413	hou guo qian yin
+chengyu	含糊其辞	含糊其辭	60798848	han hu qi ci
+chengyu	听了风就是雨	聽了風就是雨	92081631	ting le feng jiu shi yu
+chengyu	听见风就是雨	聽見風就是雨	62380879	ting jian feng jiu shi yu
+chengyu	咆哮大怒	咆哮大怒	81700430	pao xiao da nu
+chengyu	堂堂之阵	堂堂之陣	72129439	tang tang zhi zhen
+chengyu	大唤大叫	大喚大叫	73762305	da huan da jiao
+chengyu	大旱望云霓	大旱望雲霓	88213402	da han wang yun ni
+chengyu	大模厮样	大模廝樣	73762590	da mu si yang
+chengyu	大逆无道	大逆無道	73762297	da ni wu dao
+chengyu	天下无难事只怕有心人	天下無難事，只怕有心人	78028320	tian xia wu nan shi zhi pa you xin ren
+chengyu	失声大笑	失聲大笑	92118695	shi sheng da xiao
+chengyu	头痛额热	頭痛額熱	73762066	tou tong er e
+chengyu	好景不常	好景不常	71466115	hao jing bu chang
+chengyu	如雷灌耳	如雷灌耳	90385478	ru lei guan er
+chengyu	妆嫫费黛	妝嫫費黛	74121638	zhuang mo fei dai
+chengyu	姜桂老辣	薑桂老辣	69539378	jiang gui lao la
+chengyu	安良除暴	安良除暴	92810657	an liang chu bao
+chengyu	安营下寨	安營下寨	60793855	an ying xia zhai
+chengyu	寸利必得	寸利必得	60799057	cun li bi de
+chengyu	寻人寻物	尋人尋物	61506750	xun ren xun wu
+chengyu	寻新求变	尋新求變	70585069	xun xin qiu bian
+chengyu	寻芳问柳	尋芳問柳	90330215	xun fang wen liu
+chengyu	将心比己	將心比己	65267346	jiang xin bi ji
+chengyu	少年易老学难成	少年易老學難成	66347010	shao nian yi lao xue nan cheng
+chengyu	尘封网罥	塵封網罥	64412084	chen feng wang juan
+chengyu	层层设防	層層設防	60799062	ceng ceng she fang
+chengyu	居中斡旋	居中斡旋	60797710	ju zhong wo xuan
+chengyu	居间调停	居間調停	60797713	ju jian tiao ting
+chengyu	屋上建瓴	屋上建瓴	73762146	wu shang jian ling
+chengyu	巧言如流	巧言如流	90386204	qiao yan ru liu
+chengyu	布袋里老鸦	布袋裡老鴉	66134693	bu dai li lao ya
+chengyu	干净俐落	乾淨俐落	85676822	gan jing li luo
+chengyu	平心易气	平心易氣	73762056	ping xin yi qi
+chengyu	床上施床	床上施床	73762192	chuang shang shi chuang
+chengyu	床下安床	床下安床	73762191	chuang xia an chuang
+chengyu	废时失事	廢時失事	82627098	fei shi shi shi
+chengyu	当家作主	當家作主	60796948	dang jia zuo zhu
+chengyu	径行直遂	徑行直遂	73762326	jing xing zhi sui
+chengyu	得意门徒	得意門徒	93038589	de yi men tu
+chengyu	忙忙匆匆	忙忙匆匆	60794733	mang mang cong cong
+chengyu	恐惧不安	恐懼不安	62744516	kong ju bu an
+chengyu	悒郁寡欢	悒鬱寡歡	74096606	yi yu gua huan
+chengyu	悲恸欲绝	悲慟欲絕	73762496	bei tong yu jue
+chengyu	惩一戒百	懲一戒百	83078920	cheng yi jie bai
+chengyu	惩羹吹齑	懲羹吹齏	92310771	cheng geng chui ji
+chengyu	惹事生非	惹事生非	60793560	re shi sheng fei
+chengyu	感人肺肝	感人肺肝	79233535	gan ren fei gan
+chengyu	成行成市	成行成市	60795344	cheng hang cheng shi
+chengyu	手民之误	手民之誤	88121584	shou min zhi wu
+chengyu	才调秀出	才調秀出	66123227	cai diao xiu chu
+chengyu	打勤献趣	打勤獻趣	89755047	da qin xian qu
+chengyu	打拱作揖	打拱作揖	73762083	da gong zuo yi
+chengyu	打鸭子上架	打鴨子上架	73762081	da ya zi shang jia
+chengyu	扞格不通	扞格不通	60796912	hang e bu tong
+chengyu	扪隙发罅	捫隙發罅	90960100	men xi fa xia
+chengyu	扼喉抚背	扼喉撫背	60795084	e hou fu bei
+chengyu	抚棺痛哭	撫棺痛哭	60795080	fu guan tong ku
+chengyu	抚髀兴叹	撫髀興嘆	60795086	fu bi xing tan
+chengyu	担惊受恐	擔驚受恐	73762448	dan jing shou kong
+chengyu	招风招雨	招風招雨	80702286	zhao feng zhao yu
+chengyu	拼生尽死	拚生盡死	76032015	pan sheng jin si
+chengyu	挈瓶小智	挈瓶小智	81392831	qie ping xiao zhi
+chengyu	按倒葫芦瓢起来	按倒葫蘆瓢起來	73762137	an dao hu lu piao qi lai
+chengyu	挟泰山以超北海	挾泰山以超北海	84505531	xie tai shan yi chao bei hai
+chengyu	摆事实讲道理	擺事實，講道理	90330606	bai shi shi jiang dao li
+chengyu	摸老虎屁股	摸老虎屁股	78587946	mo lao hu pi gu
+chengyu	断纸余墨	斷紙餘墨	75990702	duan zhi yu mo
+chengyu	断袖余桃	斷袖餘桃	60796819	duan xiu yu tao
+chengyu	新瓶旧酒	新瓶舊酒	60798464	xin ping jiu jiu
+chengyu	无倚无靠	無倚無靠	73762163	wu yi wu kao
+chengyu	无往不在	無往不在	60797603	wu wang bu zai
+chengyu	无念无想	無念無想	60796532	wu nian wu xiang
+chengyu	无日无之	無日無之	60798564	wu ri wu zhi
+chengyu	无根之木无源之水	無根之木，無源之水	73762158	wu gen zhi mu wu yuan zhi shui
+chengyu	无知妄说	無知妄說	67958135	wu zhi wang shuo
+chengyu	无虑无忧	無慮無憂	74144263	wu lv wu you
+chengyu	无足重轻	無足重輕	73762159	wu zu zhong qing
+chengyu	旦旦信誓	旦旦信誓	73762185	dan dan xin shi
+chengyu	早知今日悔不当初	早知今日，悔不當初	60799649	zao zhi jin ri hui bu dang chu
+chengyu	时势所迫	時勢所迫	66249955	shi shi suo po
+chengyu	明修栈道暗渡陈仓	明修棧道，暗渡陳倉	71130526	ming xiu zhan dao an du chen cang
+chengyu	有仇不报非君子	有仇不報非君子	92069782	you chou bu bao fei jun zi
+chengyu	有年无日	有年無日	84063591	you nian wu ri
+chengyu	有年无月	有年無月	84548172	you nian wu yue
+chengyu	有目无珠	有目無珠	73761866	you mu wu zhu
+chengyu	有福同享有祸同当	有福同享，有禍同當	90339614	you fu tong xiang you huo tong dang
+chengyu	朝饔夕飧	朝饔夕飧	79311808	zhao yong xi sun
+chengyu	朽木粪墙	朽木糞牆	89529339	xiu mu fen qiang
+chengyu	李下瓜田	李下瓜田	73761776	li xia gua tian
+chengyu	杯水风波	杯水風波	63939296	bei shui feng bo
+chengyu	板板六十四	板板六十四	73382182	ban ban liu shi si
+chengyu	桑间之音	桑間之音	73762022	sang jian zhi yin
+chengyu	横插一杠子	橫插一槓子	60799065	heng cha yi gang zi
+chengyu	横行直撞	橫行直撞	73762303	heng xing zhi zhuang
+chengyu	欢喜若狂	歡喜若狂	90507324	huan xi ruo kuang
+chengyu	欧母画荻	歐母畫荻	73762408	ou mu hua di
+chengyu	毁人不倦	毀人不倦	60797501	hui ren bu juan
+chengyu	毫无疑义	毫無疑義	60797102	hao wu yi yi
+chengyu	求神问佛	求神問佛	88920257	qiu shen wen fo
+chengyu	没没无闻	沒沒無聞	80713074	mo mo wu wen
+chengyu	河东狮子	河東獅子	84913874	he dong shi zi
+chengyu	河水不洗船	河水不洗船	66595341	he shui bu xi chuan
+chengyu	海底摸针	海底摸針	88161796	hai di mo zhen
+chengyu	清光滑辣	清光滑辣	69458715	qing guang hua la
+chengyu	渔夫之利	漁夫之利	73761840	yu fu zhi li
+chengyu	渔翁撒网	漁翁撒網	81576165	yu weng sa wang
+chengyu	满拼自尽	滿拚自盡	84714174	man pan zi jin
+chengyu	满身疮痍	滿身瘡痍	72052215	man shen chuang yi
+chengyu	澧兰沅芷	澧蘭沅芷	67957591	li lan yuan zhi
+chengyu	火燎眉毛	火燎眉毛	63022570	huo liao mei mao
+chengyu	灯台不自照	燈臺不自照	73762016	deng tai bu zi zhao
+chengyu	炙凤烹龙	炙鳳烹龍	73762421	zhi feng peng long
+chengyu	烹龙煮凤	烹龍煮鳳	73762423	peng long zhu feng
+chengyu	燃膏继晷	燃膏繼晷	73762136	rang ao ji gui
+chengyu	犯天下之大不韪	犯天下之大不韙	73734970	fan tian xia zhi da bu wei
+chengyu	狂风骇浪	狂風駭浪	83993077	kuang feng hai lang
+chengyu	狗拿耗子多管闲事	狗拿耗子，多管閒事	90341066	gou na hao zi duo guan xian shi
+chengyu	独此一家别无分店	獨此一家，別無分店	73762226	du ci yi jia bie wu fen dian
+chengyu	狼嗥鬼叫	狼嗥鬼叫	79237082	lang hao gui jiao
+chengyu	珊瑚在网	珊瑚在網	80670137	shan hu zai wang
+chengyu	甘死如饴	甘死如飴	90453213	gan si ru yi
+chengyu	生死搏斗	生死搏鬥	67662484	sheng si bo dou
+chengyu	生气蓬勃	生氣蓬勃	62389463	sheng qi peng bo
+chengyu	生逢其地	生逢其地	60798985	sheng feng qi di
+chengyu	甲乙丙丁	甲乙丙丁	92488034	jia yi bing ding
+chengyu	画黛弯蛾	畫黛彎蛾	76862880	hua dai wan e
+chengyu	畅通易达	暢通易達	60799664	chang tong yi da
+chengyu	疮痍满目	瘡痍滿目	73762202	chuang yi man mu
+chengyu	病榻缠绵	病榻纏綿	75849763	bing ta chan mian
+chengyu	白兔赤乌	白兔赤烏	60796623	bai tu chi wu
+chengyu	白昼见鬼	白晝見鬼	63682393	bai zhou jian gui
+chengyu	百足之虫断而不蹶	百足之蟲，斷而不蹶	73762232	bai zu zhi chong duan er bu jue
+chengyu	百足之虫至断不蹶	百足之蟲，至斷不蹶	73762233	bai zu zhi chong zhi duan bu jue
+chengyu	百足之虫至死不僵	百足之蟲，至死不僵	73762234	bai zu zhi chong zhi si bu jiang
+chengyu	百问不厌百拿不烦	百問不厭，百拿不煩	60795595	bai wen bu yan bai na bu fan
+chengyu	百龙之智	百龍之智	81392784	bai long zhi zhi
+chengyu	直斥其非	直斥其非	60798174	zhi chi qi fei
+chengyu	眉头一皱计上心来	眉頭一皺，計上心來	60798509	mei tou yi zhou ji shang xin lai
+chengyu	眉头一纵计上心来	眉頭一縱，計上心來	73762253	mei tou yi zong ji shang xin lai
+chengyu	眼观四处耳听八方	眼觀四處，耳聽八方	73762169	yan guan si chu er ting ba fang
+chengyu	眼观四面耳听八方	眼觀四面，耳聽八方	73762168	yan guan si mian er ting ba fang
+chengyu	睽违已久	睽違已久	60796293	kui wei yi jiu
+chengyu	知彼知己百战不殆	知彼知己，百戰不殆	84190784	zhi bi zhi ji bai zhan bu dai
+chengyu	知规犯规	知規犯規	60794915	zhi gui fan gui
+chengyu	磨破嘴皮子	磨破嘴皮子	60799026	mo po zui pi zi
+chengyu	神魂飘荡	神魂飄蕩	60794061	shen hun piao dang
+chengyu	神龙失势	神龍失勢	92229909	shen long shi shi
+chengyu	离题万丈	離題萬丈	60797843	li ti wan zhang
+chengyu	穷鼠啮猫	窮鼠齧貓	73762510	qiong shu nie mao
+chengyu	空口讲白话	空口講白話	73762147	kong kou jiang bai hua
+chengyu	空口说空话	空口說空話	73762148	kong kou shuo kong hua
+chengyu	竹篮打水一场空	竹籃打水一場空	60797343	zhu lan da shui yi chang kong
+chengyu	竹马之友	竹馬之友	82463459	zhu ma zhi you
+chengyu	籍籍无名	籍籍無名	84883849	ji ji wu ming
+chengyu	粉装玉琢	粉裝玉琢	74177093	fen zhuang yu zhuo
+chengyu	糖衣毒药	糖衣毒藥	83050335	tang yi du yao
+chengyu	红白大事	紅白大事	82666853	hong bai da shi
+chengyu	绝色天香	絕色天香	60796879	jue se tian xiang
+chengyu	继晷焚膏	繼晷焚膏	73762135	ji gui feng ao
+chengyu	维民所止	維民所止	81342346	wei min suo zhi
+chengyu	老大吃惊	老大吃驚	74152132	lao da chi jing
+chengyu	老少男女	老少男女	73762018	lao shao nan nv
+chengyu	肩不能挑手不能提	肩不能挑，手不能提	73762117	jian bu neng tiao shou bu neng ti
+chengyu	肩不能挑担手不能提篮	肩不能挑擔，手不能提籃	90341424	jian bu neng tiao dan shou bu neng ti lan
+chengyu	胡言汉语	胡言漢語	78733886	hu yan han yu
+chengyu	能牙利爪	能牙利爪	78885141	neng ya li zhao
+chengyu	自动自觉	自動自覺	76726287	zi dong zi jiao
+chengyu	花钱找罪受	花錢找罪受	81478728	hua qian zhao zui shou
+chengyu	英年早婚	英年早婚	74136803	ying nian zao hun
+chengyu	药石无灵	藥石無靈	85769629	yao shi wu ling
+chengyu	菽水之养	菽水之養	74183744	shu shui zhi yang
+chengyu	蚤朝晏罢	蚤朝晏罷	75585952	zao chao yan ba
+chengyu	蚤朝晏退	蚤朝晏退	60797471	zao chao yan tui
+chengyu	蛮针瞎灸	蠻針瞎灸	61005714	man zhen xia jiu
+chengyu	蜜饯砒霜	蜜餞砒霜	60795060	mi jian pi shuang
+chengyu	行权立断	行權立斷	70623938	xing quan li duan
+chengyu	衣冠枭獍	衣冠梟獍	60798565	yi guan xiao jing
+chengyu	被卖了还帮忙数钱	被賣了還幫忙數錢	83884772	bei mai le huan bang mang shu qian
+chengyu	装睡的人叫不醒	裝睡的人叫不醒	83884665	zhuang shui de ren jiao bu xing
+chengyu	视若敝屣	視若敝屣	90507352	shi ruo bi xi
+chengyu	觥筹交举	觥籌交舉	73762343	gong chou jiao ju
+chengyu	言者无心听者有意	言者無心，聽者有意	60797570	yan zhe wu xin ting zhe you yi
+chengyu	言者无罪闻者足戒	言者無罪，聞者足戒	81342356	yan zhe wu zui wen zhe zu jie
+chengyu	言行信果	言行信果	73762178	yan xing xin guo
+chengyu	誓不两立	誓不兩立	88366978	shi bu liang li
+chengyu	豹头猿臂	豹頭猿臂	60793862	bao tou yuan bi
+chengyu	败子回头	敗子回頭	60795617	bai zi hui tou
+chengyu	贪如饕餮	貪如饕餮	90453639	tan ru tao tie
+chengyu	赌身立誓	賭身立誓	60796906	du shen li shi
+chengyu	赤朱丹彤	赤朱丹彤	74121514	chi zhu dan tong
+chengyu	超尘出俗	超塵出俗	78146242	chao chen chu su
+chengyu	踏上征途	踏上征途	60799103	ta shang zheng tu
+chengyu	车马骈溢	車馬駢溢	76189396	che ma pian yi
+chengyu	进酒作乐	進酒作樂	63072617	jin jiu zuo le
+chengyu	远近驰名	遠近馳名	60798131	yuan jin chi ming
+chengyu	连生贵子	連生貴子	60796323	lian sheng gui zi
+chengyu	避坑落井	避坑落井	64621756	bi keng luo jing
+chengyu	邀买人心	邀買人心	60797383	yao mai ren xin
+chengyu	邪不敌正	邪不敵正	73762388	xie bu di zheng
+chengyu	酸甜苦辣咸	酸甜苦辣鹹	74073250	suan tian ku la xian
+chengyu	金刚努目	金剛努目	84361213	jing ang nu mu
+chengyu	铺霜涌雪	鋪霜湧雪	60794117	pu shuang yong xue
+chengyu	锦片前程	錦片前程	90507414	jin pian qian cheng
+chengyu	闭关锁港	閉關鎖港	82714864	bi guan suo gang
+chengyu	难若登天	難若登天	90507394	nan ruo deng tian
+chengyu	零碎不全	零碎不全	60798640	ling sui bu quan
+chengyu	非异人任	非異人任	75794042	fei yi ren ren
+chengyu	鞭辟进里	鞭辟進裡	64735385	bian pi jin li
+chengyu	飞腾之兆	飛騰之兆	79200001	fei teng zhi zhao
+chengyu	马耳东风	馬耳東風	92266205	ma er dong feng
+chengyu	高不凑低不就	高不湊，低不就	73762150	gao bu cou di bu jiu
+chengyu	高不辏低不就	高不輳，低不就	73762149	gao bu cou di bu jiu
+chengyu	高垒深堑	高壘深塹	73762313	gao lei shen qian
+chengyu	高垒深壁	高壘深壁	73762314	gao lei shen bi
+chengyu	鸢肩豺目	鳶肩豺目	60797889	yuan jian chai mu
+chengyu	鸿篇巨帙	鴻篇巨帙	73762187	hong pian ju zhi
+chengyu	麦秀黍油	麥秀黍油	60796098	mai xiu shu you
+chengyu	龙兴之地	龍興之地	60799063	long xing zhi di
+chengyu	龙阳之好	龍陽之好	90375234	long yang zhi hao
+idioms	一举手一投足	一舉手一投足	61660670	yi ju shou yi tou zu
+idioms	一佛出世二佛涅槃	一佛出世，二佛涅槃	80453668	yi fo chu shi er fo nie pan
+idioms	一哭二闹三上吊	一哭二鬧三上吊	82639169	yi ku er nao san shang diao
+idioms	一失足成千古恨再回头已百年身	一失足成千古恨，再回頭已百年身	90310121	yi shi zu cheng qian gu hen zai hui tou yi bai nian shen
+idioms	一年容易又中秋	一年容易又中秋	77421525	yi nian rong yi you zhong qiu
+idioms	一手交钱一手交货	一手交錢，一手交貨	60793192	yi shou jiao qian yi shou jiao huo
+idioms	一手好牌打得稀烂	一手好牌打得稀爛	92965887	yi shou hao pai da de xi lan
+idioms	一手托两家	一手托兩家	60793193	yi shou tuo liang jia
+idioms	一把鼻涕一把泪	一把鼻涕一把淚	91536059	yi ba bi ti yi ba lei
+idioms	一抓一大把	一抓一大把	65433311	yi zhua yi da ba
+idioms	一损俱损一荣俱荣	一損俱損，一榮俱榮	60963342	yi sun ju sun yi rong ju rong
+idioms	一方有难八方支援	一方有難，八方支援	83079255	yi fang you nan ba fang zhi yuan
+idioms	一朵鲜花插在牛粪上	一朵鮮花插在牛糞上	75585729	yi duo xian hua cha zai niu fen shang
+idioms	一条路走到黑	一條路走到黑	92056412	yi tiao lu zou dao hei
+idioms	一步一回头	一步一回頭	60793967	yi bu yi hui tou
+idioms	一燕不成夏	一燕不成夏	84855404	yi yan bu cheng xia
+idioms	一理通百理明	一理通，百理明	84385257	yi li tong bai li ming
+idioms	一生受用不尽	一生受用不盡	60793196	yi sheng shou yong bu jin
+idioms	一盏茶工夫	一盞茶工夫	60793204	yi zhan cha gong fu
+idioms	一竿子打翻一船人	一竿子打翻一船人	70720822	yi gan zi da fan yi chuan ren
+idioms	一粒老鼠屎坏了一锅粥	一粒老鼠屎，壞了一鍋粥	62387615	yi li lao shu shi huai le yi guo zhou
+idioms	一而二二而一	一而二，二而一	60793198	yi er er er er yi
+idioms	一脚高一脚低	一腳高一腳低	83464553	yi jiao gao yi jiao di
+idioms	一荣俱荣一损俱损	一榮俱榮，一損俱損	73762400	yi rong ju rong yi sun ju sun
+idioms	一阵青一阵白	一陣青一陣白	83464558	yi zhen qing yi zhen bai
+idioms	七十瓦上霜八十不稀奇	七十瓦上霜，八十不稀奇	90647488	qi shi wa shang shuang ba shi bu xi qi
+idioms	万代千秋	萬代千秋	82443596	wan dai qian qiu
+idioms	丈八金刚摸不着头脑	丈八金剛摸不著頭腦	76108284	zhang ba jing ang mo bu zhao tou nao
+idioms	三一三十一	三一三十一	60816314	san yi san shi yi
+idioms	三军可夺帅匹夫不可夺志	三軍可奪帥，匹夫不可奪志	81773959	san jun ke duo shuai pi fu bu ke duo zhi
+idioms	三天打鱼两天晒网	三天打魚，兩天曬網	91536142	san tian da yu liang tian shai wang
+idioms	三日打鱼两日晒网	三日打魚，兩日曬網	73762383	san ri da yu liang ri shai wang
+idioms	上有政策下有对策	上有政策，下有對策	90310348	shang you zheng ce xia you dui ce
+idioms	不买帐	不買帳	78474557	bu mai zhang
+idioms	不以物喜不以己悲	不以物喜，不以己悲	88213325	bu yi wu xi bu yi ji bei
+idioms	不可无一不可有二	不可無一，不可有二	60793981	bu ke wu yi bu ke you er
+idioms	不可望其项背	不可望其項背	60796227	bu ke wang qi xiang bei
+idioms	不如意事十常八九	不如意事，十常八九	75585791	bu ru yi shi shi chang ba jiu
+idioms	不得已而求其次	不得已而求其次	60796250	bu de yi er qiu qi ci
+idioms	不得已而退求其次	不得已而退求其次	60796252	bu de yi er tui qiu qi ci
+idioms	不怕官只怕管	不怕官，只怕管	90310371	bu pa guan zhi pa guan
+idioms	不战而屈人之兵	不戰而屈人之兵	88213324	bu zhan er qu ren zhi bing
+idioms	不是鱼死就是网破	不是魚死，就是網破	92056429	bu shi yu si jiu shi wang po
+idioms	不死也半条命	不死也半條命	60945757	bu si ye ban tiao ming
+idioms	不比不知道一比吓一跳	不比不知道，一比嚇一跳	90310373	bu bi bu zhi dao yi bi xia yi tiao
+idioms	不知人间有羞耻事	不知人間有羞恥事	60796125	bu zhi ren jian you xiu chi shi
+idioms	东家长西家短	東家長西家短	62948873	dong jia chang xi jia duan
+idioms	两害相权取其轻	兩害相權取其輕	60793784	liang hai xiang quan qu qi qing
+idioms	临时抱耶稣脚	臨時抱耶穌腳	82729027	lin shi bao ye su jiao
+idioms	举动荆棘	舉動荊棘	60794095	ju dong jing ji
+idioms	乌头白马生角	烏頭白，馬生角	88895372	wu tou bai ma sheng jiao
+idioms	书山有路勤为径学海无涯苦作舟	書山有路勤為徑，學海無涯苦作舟	90058379	shu shan you lu qin wei jing xue hai wu ya ku zuo zhou
+idioms	乱点鸳鸯谱	亂點鴛鴦譜	88669150	luan dian yuan yang pu
+idioms	云屯雨集	雲屯雨集	60794090	yun tun yu ji
+idioms	五十步笑一百步	五十步笑一百步	71214354	wu shi bu xiao yi bai bu
+idioms	人不像人鬼不像鬼	人不像人，鬼不像鬼	60793207	ren bu xiang ren gui bu xiang gui
+idioms	今天的我打倒昨天的我	今天的我打倒昨天的我	78601103	jin tian de wo da dao zuo tian de wo
+idioms	以其人之道还治其人之身	以其人之道，還治其人之身	60795889	yi qi ren zhi dao huan zhi qi ren zhi shen
+idioms	以小人之心度君子之腹	以小人之心，度君子之腹	88460257	yi xiao ren zhi xin duo jun zi zhi fu
+idioms	以眼还眼以牙还牙	以眼還眼，以牙還牙	83806791	yi yan huan yan yi ya huan ya
+idioms	佯输诈败	佯輸詐敗	60794351	yang shu zha bai
+idioms	倒抽一口气	倒抽一口氣	84080643	dao chou yi kou qi
+idioms	倚强欺弱	倚強欺弱	60794132	yi qiang qi ruo
+idioms	偷得浮生半日闲	偷得浮生半日閒	82930420	tou de fu sheng ban ri xian
+idioms	偷目窃望	偷目竊望	60794060	tou mu qie wang
+idioms	充饥画饼	充飢畫餅	73762592	chong ji hua bing
+idioms	先天下之忧而忧后天下之乐而乐	先天下之憂而憂，後天下之樂而樂	88213370	xian tian xia zhi you er you hou tian xia zhi le er le
+idioms	先工作后玩乐	先工作後玩樂	84855583	xian gong zuo hou wan le
+idioms	先敬罗衣后敬人	先敬羅衣後敬人	60795028	xian jing luo yi hou jing ren
+idioms	兔死狐悲物伤其类	兔死狐悲，物傷其類	90310450	tu si hu bei wu shang qi lei
+idioms	公说公有理婆说婆有理	公說公有理，婆說婆有理	90310499	gong shuo gong you li po shuo po you li
+idioms	关公面前耍大刀	關公面前耍大刀	84866404	guan gong mian qian shua da dao
+idioms	兵强将盛	兵強將盛	60794293	bing qiang jiang sheng
+idioms	养兵千日用在一时	養兵千日，用在一時	73762455	yang bing qian ri yong zai yi shi
+idioms	养兵千日用在一朝	養兵千日，用在一朝	73762456	yang bing qian ri yong zai yi zhao
+idioms	冤家宜解不宜结	冤家宜解不宜結	60797448	yuan jia yi jie bu yi jie
+idioms	刮冷风	刮冷風	66488326	gua leng feng
+idioms	势如奔马	勢如奔馬	90383926	shi ru ben ma
+idioms	勇气百倍	勇氣百倍	60794333	yong qi bai bei
+idioms	勒紧裤头	勒緊褲頭	84855637	lei jin ku tou
+idioms	十五个吊桶打水	十五個吊桶打水	74174628	shi wu ge diao tong da shui
+idioms	半路杀出个程咬金	半路殺出個程咬金	84535010	ban lu sha chu ge cheng yao jin
+idioms	华夷一家	華夷一家	60795025	hua yi yi jia
+idioms	压倒骆驼的最后一根草	壓倒駱駝的最後一根草	81045073	ya dao luo tuo de zui hou yi gen cao
+idioms	变位思考	變位思考	89827288	bian wei si kao
+idioms	只许州官放火不许百姓点灯	只許州官放火，不許百姓點燈	83907283	zhi xu zhou guan fang huo bu xu bai xing dian deng
+idioms	叫天天不应叫地地不灵	叫天天不應，叫地地不靈	90319758	jiao tian tian bu ying jiao di di bu ling
+idioms	可望而不可及	可望而不可及	73762457	ke wang er bu ke ji
+idioms	吃熊心豹子胆	吃熊心豹子膽	60794934	chi xiong xin bao zi dan
+idioms	吃瓦片	吃瓦片	80949379	chi wa pian
+idioms	各怀一心	各懷一心	60793769	ge huai yi xin
+idioms	哑巴吃黄连	啞巴吃黃連	73762434	ya ba chi huang lian
+idioms	哪壶不开提哪壶	哪壺不開提哪壺	60793658	na hu bu kai ti na hu
+idioms	唱红白脸	唱紅白臉	84108696	chang hong bai lian
+idioms	善者不辩辩者不善	善者不辯，辯者不善	60796303	shan zhe bu bian bian zhe bu shan
+idioms	图文不符	圖文不符	60799641	tu wen bu fu
+idioms	外国的月亮比较圆	外國的月亮比較圓	73433386	wai guo de yue liang bi jiao yuan
+idioms	多做多错少做少错不做不错	多做多錯，少做少錯，不做不錯	90319906	duo zuo duo cuo shao zuo shao cuo bu zuo bu cuo
+idioms	够喝一壶的	夠喝一壺的	91953611	gou he yi hu de
+idioms	大人有大量	大人有大量	78747058	da ren you da liang
+idioms	天上掉馅饼	天上掉餡餅	60796827	tian shang diao xian bing
+idioms	天下本无事庸人自扰之	天下本無事，庸人自擾之	90319934	tian xia ben wu shi yong ren zi rao zhi
+idioms	天下父母心	天下父母心	60793301	tian xia fu mu xin
+idioms	天外飞来一笔	天外飛來一筆	60793303	tian wai fei lai yi bi
+idioms	天机不可泄漏	天機不可洩漏	72882993	tian ji bu ke xie lou
+idioms	天灵灵地灵灵	天靈靈，地靈靈	90319950	tian ling ling di ling ling
+idioms	天雨粟马生角	天雨粟，馬生角	88895370	tian yu su ma sheng jiao
+idioms	太阳从西边出来	太陽從西邊出來	80656851	tai yang cong xi bian chu lai
+idioms	好利忘义	好利忘義	60794112	hao li wang yi
+idioms	好花插在牛粪上	好花插在牛糞上	73761908	hao hua cha zai niu fen shang
+idioms	孤力难为	孤力難為	60794297	gu li nan wei
+idioms	学海无涯勤是岸	學海無涯勤是岸	90319970	xue hai wu ya qin shi an
+idioms	学海无涯唯勤是岸	學海無涯，唯勤是岸	90319968	xue hai wu ya wei qin shi an
+idioms	宁为鸡头不做凤尾	寧為雞頭，不做鳳尾	75758898	ning wei ji tou bu zuo feng wei
+idioms	宁枉勿纵	寧枉勿縱	80947426	ning wang wu zong
+idioms	宁纵勿枉	寧縱勿枉	80947466	ning zong wu wang
+idioms	安民恤众	安民恤眾	63625749	an min xu zhong
+idioms	宰相肚里好撑船	宰相肚裡好撐船	78747064	zai xiang du li hao cheng chuan
+idioms	宰相肚里能撑船	宰相肚裡能撐船	82449219	zai xiang du li neng cheng chuan
+idioms	察颜观色	察顏觀色	84855939	cha yan guan se
+idioms	屈己待人	屈己待人	60794030	qu ji dai ren
+idioms	属耗子的撂爪就忘	屬耗子的——撂爪就忘	60796795	shu hao zi de liao zhua jiu wang
+idioms	屡禁难止	屢禁難止	60794234	lv jin nan zhi
+idioms	屡禁难绝	屢禁難絕	60794233	lv jin nan jue
+idioms	岁月不饶人	歲月不饒人	60793564	sui yue bu rao ren
+idioms	巴头探脑	巴頭探腦	63646797	ba tou tan nao
+idioms	布裙荆钗	布裙荊釵	90436734	bu qun jing chai
+idioms	开空白支票	開空白支票	92056524	kai kong bai zhi piao
+idioms	引虎入羊群	引虎入羊群	60794004	yin hu ru yang qun
+idioms	彪腹狼腰	彪腹狼腰	60794098	biao fu lang yao
+idioms	彼一时此一时	彼一時，此一時	90978185	bi yi shi ci yi shi
+idioms	往者不可及来者犹可待	往者不可及，來者猶可待	90308490	wang zhe bu ke ji lai zhe you ke dai
+idioms	往自己脸上贴金	往自己臉上貼金	60797663	wang zi ji lian shang tie jin
+idioms	怒目咬牙	怒目咬牙	60794159	nu mu yao ya
+idioms	恨不相逢未嫁时	恨不相逢未嫁時	60793464	hen bu xiang feng wei jia shi
+idioms	悬羊头卖狗肉	懸羊頭賣狗肉	73762467	xuan yang tou mai gou rou
+idioms	悲欢岁月	悲歡歲月	60793540	bei huan sui yue
+idioms	懒驴上磨屎尿多	懶驢上磨——屎尿多	91378096	lan lv shang mo shi niao duo
+idioms	成本大套	成本大套	70225191	cheng ben da tao
+idioms	房间里的大象	房間裡的大象	74114136	fang jian li de da xiang
+idioms	手心手背都是肉	手心手背都是肉	91535486	shou xin shou bei dou shi rou
+idioms	打不还手骂不还口	打不還手，罵不還口	90330482	da bu huan shou ma bu huan kou
+idioms	打铁先得本身硬	打鐵先得本身硬	73762411	da tie xian dei ben shen ying
+idioms	扯弓搭箭	扯弓搭箭	60794020	che gong da jian
+idioms	抖搜精神	抖搜精神	60799366	dou sou jing shen
+idioms	抬头不见低头见	抬頭不見低頭見	74141651	tai tou bu jian di tou jian
+idioms	拜倒石榴裙下	拜倒石榴裙下	90308108	bai dao shi liu qun xia
+idioms	拽得跟二五八万一样	拽得跟二五八萬一樣	90383786	zhuai de gen er wu ba wan yi yang
+idioms	拿鸡毛当令箭	拿雞毛當令箭	73085111	na ji mao dang ling jian
+idioms	按在地上摩擦	按在地上摩擦	73270627	an zai di shang mo ca
+idioms	捡了芝麻丢了西瓜	撿了芝麻，丟了西瓜	90330603	jian le zhi ma diu le xi gua
+idioms	捡回命	撿回命	47510327	jian hui ming
+idioms	接续香烟	接續香煙	80873661	jie xu xiang yan
+idioms	掩目而捕燕雀	掩目而捕燕雀	78951249	yan mu er bu yan que
+idioms	握手言合	握手言合	75585870	wo shou yan he
+idioms	搬石头砸自己的脚	搬石頭砸自己的腳	84079469	ban shi tou za zi ji de jiao
+idioms	攻其无备出其不意	攻其無備，出其不意	60793414	gong qi wu bei chu qi bu yi
+idioms	救人如救火	救人如救火	90453073	jiu ren ru jiu huo
+idioms	敦品励学	敦品勵學	60797429	dun pin li xue
+idioms	敬酒不吃吃罚酒	敬酒不吃吃罰酒	89772172	jing jiu bu chi chi fa jiu
+idioms	新瓶装旧酒	新瓶裝舊酒	73762249	xin ping zhuang jiu jiu
+idioms	无何有之乡	無何有之鄉	88110584	wu he you zhi xiang
+idioms	无面目见江东父老	無面目見江東父老	65109264	wu mian mu jian jiang dong fu lao
+idioms	无颜见江东父老	無顏見江東父老	65109270	wu yan jian jiang dong fu lao
+idioms	既有今日何必当初	既有今日，何必當初	60796510	ji you jin ri he bi dang chu
+idioms	日头打西出来	日頭打西出來	61138419	ri tou da xi chu lai
+idioms	旺丁不旺财	旺丁不旺財	90408605	wang ding bu wang cai
+idioms	明知山有虎偏向虎山行	明知山有虎，偏向虎山行	60793438	ming zhi shan you hu pian xiang hu shan xing
+idioms	暗暗自责	暗暗自責	60793563	an an zi ze
+idioms	有一顿没一顿	有一頓，沒一頓	90339581	you yi dun mei yi dun
+idioms	有何面目	有何面目	60794007	you he mian mu
+idioms	有好果子吃	有好果子吃	60797190	you hao guo zi chi
+idioms	有心栽花花不开无心插柳柳成荫	有心栽花花不開，無心插柳柳成蔭	76263094	you xin zai hua hua bu kai wu xin cha liu liu cheng yin
+idioms	木无表情	木無表情	83471466	mu wu biao qing
+idioms	木门对木门竹门对竹门	木門對木門，竹門對竹門	90339650	mu men dui mu men zhu men dui zhu men
+idioms	未知生焉知死	未知生，焉知死	81775476	wei zhi sheng yan zhi si
+idioms	未蒙其利先受其害	未蒙其利，先受其害	60793689	wei meng qi li xian shou qi hai
+idioms	朱门酒肉臭路有冻死骨	朱門酒肉臭，路有凍死骨	88265275	zhu men jiu rou chou lu you dong si gu
+idioms	杀敌一千自损八百	殺敵一千，自損八百	84554894	sha di yi qian zi sun ba bai
+idioms	来无影去无踪	來無影去無蹤	60793430	lai wu ying qu wu zong
+idioms	柴米油盐酱醋茶	柴米油鹽醬醋茶	91661359	chai mi you yan jiang cu cha
+idioms	树功立业	樹功立業	60794145	shu gong li ye
+idioms	树大惹风	樹大惹風	89550204	shu da re feng
+idioms	树大有枯枝	樹大有枯枝	71628743	shu da you ku zhi
+idioms	桃园三结义	桃園三結義	90339684	tao yuan san jie yi
+idioms	死诸葛走生仲达	死諸葛走生仲達	90381793	si zhu ge zou sheng zhong da
+idioms	死马当作活马医	死馬當作活馬醫	65156610	si ma dang zuo huo ma yi
+idioms	沃兹基硕德	沃茲基碩德	88741173	wo zi ji shuo de
+idioms	沙盘推演	沙盤推演	82356894	sha pan tui yan
+idioms	浊酒粗食	濁酒粗食	60794289	zhuo jiu cu shi
+idioms	海内一统	海內一統	60793745	hai nei yi tong
+idioms	海内存知己天涯若比邻	海內存知己，天涯若比鄰	92275112	hai nei cun zhi ji tian ya ruo bi lin
+idioms	添福添寿	添福添壽	60794829	tian fu tian shou
+idioms	灯台不照自己	燈臺不照自己	73762017	deng tai bu zhao zi ji
+idioms	独燕不成夏	獨燕不成夏	84856528	du yan bu cheng xia
+idioms	用在刀刃上	用在刀刃上	92068495	yong zai dao ren shang
+idioms	画虎不成反类狗	畫虎不成反類狗	84557039	hua hu bu cheng fan lei gou
+idioms	略无忌惮	略無忌憚	78951258	lve wu ji dan
+idioms	略无禁惮	略無禁憚	78951259	lve wu jin dan
+idioms	白刀子进去红刀子出来	白刀子進去，紅刀子出來	74174164	bai dao zi jin qu hong dao zi chu lai
+idioms	白字连篇	白字連篇	60795541	bai zi lian pian
+idioms	皇帝不急急死太监	皇帝不急，急死太監	91536505	huang di bu ji ji si tai jian
+idioms	盛者必衰	盛者必衰	86455303	sheng zhe bi shuai
+idioms	看天吃饭	看天吃飯	60799119	kan tian chi fan
+idioms	眼睛长在头顶上	眼睛長在頭頂上	60793529	yan jing zhang zai tou ding shang
+idioms	睁眼说瞎话	睜眼說瞎話	75585932	zheng yan shuo xia hua
+idioms	瞎猫碰到死老鼠	瞎貓碰到死老鼠	84237665	xia mao peng dao si lao shu
+idioms	瞎猫逮死耗子	瞎貓逮死耗子	84237663	xia mao da si hao zi
+idioms	知其一不知其二	知其一不知其二	83079275	zhi qi yi bu zhi qi er
+idioms	知其不可为而为之	知其不可為而為之	81776053	zhi qi bu ke wei er wei zhi
+idioms	知其不可而为	知其不可而為	81776062	zhi qi bu ke er wei
+idioms	知其然而不知其所以然	知其然而不知其所以然	60793977	zhi qi ran er bu zhi qi suo yi ran
+idioms	砍掉重练	砍掉重練	89502879	kan diao chong lian
+idioms	碧眼童颜	碧眼童顏	60793710	bi yan tong yan
+idioms	祸在目前	禍在目前	60793757	huo zai mu qian
+idioms	福大命大造化大	福大命大造化大	60794180	fu da ming da zao hua da
+idioms	福如东海寿比南山	福如東海，壽比南山	90342089	fu ru dong hai shou bin an shan
+idioms	秋波送情	秋波送情	60794052	qiu bo song qing
+idioms	竹门对竹门木门对木门	竹門對竹門，木門對木門	90339651	zhu men dui zhu men mu men dui mu men
+idioms	红光紫雾	紅光紫霧	60794084	hong guang zi wu
+idioms	经宿不归	經宿不歸	60794226	jing su bu gui
+idioms	美其名	美其名	76542423	mei qi ming
+idioms	翻脸不认人	翻臉不認人	62695582	fan lian bu ren ren
+idioms	老牛吃嫩草	老牛吃嫩草	82281954	lao niu chi nen cao
+idioms	老而不死是为贼	老而不死是為賊	81776372	lao er bu si shi wei zei
+idioms	肉中刺眼中钉	肉中刺，眼中釘	63486682	rou zhong ci yan zhong ding
+idioms	肚里说不出来的苦	肚裡說不出來的苦	61328110	du li shuo bu chu lai de ku
+idioms	胳膊肘向外拐	胳膊肘向外拐	91731068	ge bo zhou xiang wai guai
+idioms	胳膊肘往外拐	胳膊肘往外拐	91731050	ge bo zhou wang wai guai
+idioms	胳膊肘朝外拐	胳膊肘朝外拐	77536079	ge bo zhou chao wai guai
+idioms	脱裤子放屁	脫褲子放屁	86594851	tuo ku zi fang pi
+idioms	脸红脖子粗	臉紅脖子粗	82596824	lian hong bo zi cu
+idioms	自作孽不可活	自作孽，不可活	81776443	zi zuo nie bu ke huo
+idioms	自扫门前雪	自掃門前雪	63119088	zi sao men qian xue
+idioms	舍不得孩子套不住狼	捨不得孩子套不住狼	92081623	she bu de hai zi tao bu zhu lang
+idioms	色香味俱全	色香味俱全	90359206	se xiang wei ju quan
+idioms	葬身之地	葬身之地	89895334	zang shen zhi di
+idioms	虎体狼腰	虎體狼腰	60793861	hu ti lang yao
+idioms	虎体猿臂	虎體猿臂	60794097	hu ti yuan bi
+idioms	虎无爪鸟无翼	虎無爪，鳥無翼	60794300	hu wu zhua niao wu yi
+idioms	螃蟹心态	螃蟹心態	60794834	pang xie xin tai
+idioms	螃蟹心理	螃蟹心理	60794836	pang xie xin li
+idioms	螃蟹精神	螃蟹精神	60794835	pang xie jing shen
+idioms	行不改名坐不改姓	行不改名，坐不改姓	90341466	xing bu gai ming zuo bu gai xing
+idioms	行坐不安	行坐不安	60794040	xing zuo bu an
+idioms	襄王有意神女无心	襄王有意，神女無心	60795570	xiang wang you yi shen nv wu xin
+idioms	要钱不要命	要錢不要命	60793483	yao qian bu yao ming
+idioms	要风得风要雨得雨	要風得風，要雨得雨	60793481	yao feng de feng yao yu de yu
+idioms	覆酒瓮	覆酒甕	66429386	fu jiu weng
+idioms	覆酱瓿	覆醬瓿	82586090	fu jiang bu
+idioms	说一套做一套	說一套做一套	90341878	shuo yi tao zuo yi tao
+idioms	说不清道不明	說不清，道不明	90341881	shuo bu qing dao bu ming
+idioms	说溜嘴	說溜嘴	69560896	shuo liu zui
+idioms	说的比唱的还好听	說的比唱的還好聽	90342135	shuo de bi chang de hai hao ting
+idioms	谋臣武将	謀臣武將	60794222	mou chen wu jiang
+idioms	豆腐盘成肉价钱	豆腐盤成肉價錢	60797148	dou fu pan cheng rou jia qian
+idioms	跳进黄河洗不清	跳進黃河洗不清	69596147	tiao jin huang he xi bu qing
+idioms	躲过初一躲不过十五	躲過初一，躲不過十五	61346249	duo guo chu yi duo bu guo shi wu
+idioms	车同轨书同文	車同軌，書同文	88784303	che tong gui shu tong wen
+idioms	边都沾不上	邊都沾不上	60793616	bian dou zhan bu shang
+idioms	还给老师	還給老師	92968638	huan gei lao shi
+idioms	那壶不开提那壶	那壺不開提那壺	82275007	na hu bu kai ti na hu
+idioms	酒过数巡	酒過數巡	60794605	jiu guo shu xun
+idioms	里外不是人	裡外不是人	73584057	li wai bu shi ren
+idioms	重于泰山轻于鸿毛	重於泰山，輕於鴻毛	60793973	zhong yu tai shan qing yu hong mao
+idioms	银河落九天	銀河落九天	60793593	yin he luo jiu tian
+idioms	错把冯京当马凉	錯把馮京當馬涼	87985703	cuo ba feng jing dang ma liang
+idioms	长他人志气灭自己威风	長他人志氣，滅自己威風	91536149	zhang ta ren zhi qi mie zi ji wei feng
+idioms	阿喀琉斯之踵	阿喀琉斯之踵	92475829	a ka liu si zhi zhong
+idioms	雍容大方	雍容大方	60793579	yong rong da fang
+idioms	顺我者生逆我者死	順我者生，逆我者死	60793790	shun wo zhe sheng ni wo zhe si
+idioms	顾不得许多	顧不得許多	60793624	gu bu de xu duo
+idioms	颓墙坏壁	頹牆壞壁	60794292	tui qiang huai bi
+idioms	风水轮流转	風水輪流轉	83417784	feng shui lun liu zhuan
+idioms	飞走如风	飛走如風	90453734	fei zou ru feng
+idioms	饱食终日无所用心	飽食終日，無所用心	81777133	bao shi zhong ri wu suo yong xin
+idioms	马不及鞍	馬不及鞍	60793730	ma bu ji an
+idioms	马屁拍在马腿上	馬屁拍在馬腿上	61502522	ma pi pai zai ma tui shang
+idioms	马照跑舞照跳	馬照跑，舞照跳	78319456	ma zhao pao wu zhao tiao
+idioms	高射炮打蚊子	高射炮打蚊子	88257657	gao she pao da wen zi
+idioms	高楼万丈平地起	高樓萬丈平地起	84857099	gao lou wan zhang ping di qi
+idioms	鲁般手里调大斧	魯般手裡調大斧	64629740	lu ban shou li diao da fu
+idioms	鸡蛋里挑骨头	雞蛋裡挑骨頭	91531746	ji dan li tiao gu tou
+idioms	鸾交凤友	鸞交鳳友	60795688	luan jiao feng you
+idioms	鹤鸣于九皋声闻于天	鶴鳴於九皋，聲聞於天	90341983	he ming yu jiu gao sheng wen yu tian
+idioms	鼎力玉成	鼎力玉成	60795729	ding li yu cheng
+idioms	鼻子不是鼻子脸不是脸	鼻子不是鼻子臉不是臉	60794178	bi zi bu shi bi zi lian bu shi lian
+idioms	鼻子气歪了	鼻子氣歪了	60794179	bi zi qi wai le
+proverbs	一人计短二人计长	一人計短，二人計長	78697748	yi ren ji duan er ren ji chang
+proverbs	一元复始万象更新	一元復始，萬象更新	84992141	yi yuan fu shi wan xiang geng xin
+proverbs	一分钱一分货	一分錢一分貨	78597792	yi fen qian yi fen huo
+proverbs	一口吃不成个胖子	一口吃不成個胖子	92079819	yi kou chi bu cheng ge pang zi
+proverbs	一口吃成个胖子	一口吃成個胖子	92079785	yi kou chi cheng ge pang zi
+proverbs	一命二运三风水	一命二運三風水	73631509	yi ming er yun san feng shui
+proverbs	一命二运三风水四积阴德五读书	一命二運三風水，四積陰德五讀書	83079290	yi ming er yun san feng shui si ji yin de wu du shu
+proverbs	一寸光阴一寸金寸金难买寸光阴	一寸光陰一寸金，寸金難買寸光陰	90065499	yi cun guang yin yi cun jin cun jin nan mai cun guang yin
+proverbs	一将功成万骨枯	一將功成萬骨枯	84861426	yi jiang gong cheng wan gu ku
+proverbs	一山还有一山高	一山還有一山高	69409977	yi shan hai you yi shan gao
+proverbs	一年之计在于春一日之计在于晨	一年之計在於春，一日之計在於晨	77944317	yi nian zhi ji zai yu chun yi ri zhi ji zai yu chen
+proverbs	一日一苹果医生远离我	一日一蘋果，醫生遠離我	90060777	yi ri yi ping guo yi sheng yuan li wo
+proverbs	一日为师终身为父	一日為師，終身為父	92924023	yi ri wei shi zhong shen wei fu
+proverbs	一朝被蛇咬十年怕草绳	一朝被蛇咬，十年怕草繩	92049201	yi zhao bei she yao shi nian pa cao sheng
+proverbs	一样米养百样人	一樣米養百樣人	69455090	yi yang mi yang bai yang ren
+proverbs	一步错步步错	一步錯，步步錯	60744259	yi bu cuo bu bu cuo
+proverbs	一饮一啄莫非前定	一飲一啄，莫非前定	60744261	yi yin yi zhuo mo fei qian ding
+proverbs	万丈高楼平地起	萬丈高樓平地起	60744742	wan zhang gao lou ping di qi
+proverbs	万事起头难	萬事起頭難	90813889	wan shi qi tou nan
+proverbs	万般皆下品惟有读书高	萬般皆下品，惟有讀書高	84862037	wan ban jie xia pin wei you du shu gao
+proverbs	丈夫有泪不轻弹	丈夫有淚不輕彈	73762382	zhang fu you lei bu qing tan
+proverbs	三个女人一台戏	三個女人一臺戲	74145562	san ge nv ren yi tai xi
+proverbs	三军未动粮草先行	三軍未動，糧草先行	73762309	san jun wei dong liang cao xian xing
+proverbs	三军未发粮草先行	三軍未發，糧草先行	67597921	san jun wei fa liang cao xian xing
+proverbs	三十六计走为上计	三十六計，走為上計	71648755	san shi liu ji zou wei shang ji
+proverbs	三天不打上房揭瓦	三天不打，上房揭瓦	90206314	san tian bu da shang fang jie wa
+proverbs	三日不读书面目可憎	三日不讀書，面目可憎	60744275	san ri bu du shu mian mu ke zeng
+proverbs	三百六十行行行出状元	三百六十行，行行出狀元	90809748	san bai liu shi hang hang hang chu zhuang yuan
+proverbs	三里不同调十里不同音	三里不同調，十里不同音	90065595	san li bu tong diao shi li bu tong yin
+proverbs	上山容易下山难	上山容易下山難	66467164	shang shan rong yi xia shan nan
+proverbs	上山捉蟹难	上山捉蟹——難	74176477	shang shan zhuo xie nan
+proverbs	不听老人言吃亏在眼前	不聽老人言，吃虧在眼前	90100119	bu ting lao ren yan chi kui zai yan qian
+proverbs	不塞不流不止不行	不塞不流，不止不行	60744559	bu se bu liu bu zhi bu xing
+proverbs	不孝有三无后为大	不孝有三，無後為大	81773985	bu xiao you san wu hou wei da
+proverbs	不当家不知柴米贵	不當家不知柴米貴	60744736	bu dang jia bu zhi chai mi gui
+proverbs	不怕慢只怕站	不怕慢，只怕站	90100108	bu pa man zhi pa zhan
+proverbs	不怕慢就怕站	不怕慢，就怕站	90100105	bu pa man jiu pa zhan
+proverbs	不患寡而患不均	不患寡而患不均	81774009	bu huan gua er huan bu jun
+proverbs	不是一家人不进一家门	不是一家人，不進一家門	60744304	bu shi yi jia ren bu jin yi jia men
+proverbs	丑人多作怪	醜人多作怪	85875083	chou ren duo zuo guai
+proverbs	丑媳妇总得见公婆	醜媳婦總得見公婆	92080222	chou xi fu zong dei jian gong po
+proverbs	业精于勤而荒于嬉	業精於勤而荒於嬉	73762284	ye jing yu qin er huang yu xi
+proverbs	临渊羡鱼不如退而结网	臨淵羨魚，不如退而結網	60744530	lin yuan xian yu bu ru tui er jie wang
+proverbs	为善不欲人知	為善不欲人知	60744381	wei shan bu yu ren zhi
+proverbs	举头三尺有神明	舉頭三尺有神明	65149751	ju tou san chi you shen ming
+proverbs	久病床前无孝子	久病床前無孝子	66546986	jiu bing chuang qian wu xiao zi
+proverbs	乌云遮不住太阳的光辉	烏雲遮不住太陽的光輝	67401457	wu yun zhe bu zhu tai yang de guang hui
+proverbs	书中自有颜如玉	書中自有顏如玉	90453132	shu zhong zi you yan ru yu
+proverbs	书中自有黄金屋	書中自有黃金屋	60963319	shu zhong zi you huang jin wu
+proverbs	乱拳打死老师傅	亂拳打死老師傅	63451172	luan quan da si lao shi fu
+proverbs	二八月乱穿衣	二八月亂穿衣	92532352	er ba yue luan chuan yi
+proverbs	亲兄弟明算账	親兄弟，明算賬	75120183	qin xiong di ming suan zhang
+proverbs	人为财死鸟为食亡	人為財死，鳥為食亡	91011713	ren wei cai si niao wei shi wang
+proverbs	人之患在好为人师	人之患在好為人師	81774106	ren zhi huan zai hao wei ren shi
+proverbs	人善得人欺马善得人骑	人善得人欺，馬善得人騎	90206440	ren shan de ren qi ma shan de ren qi
+proverbs	人在做天在看	人在做，天在看	65149663	ren zai zuo tian zai kan
+proverbs	人在屋檐下不得不低头	人在屋檐下，不得不低頭	89198166	ren zai wu yan xia bu de bu di tou
+proverbs	人外有人天外有天	人外有人，天外有天	83464563	ren wai you ren tian wai you tian
+proverbs	人多好办事	人多好辦事	60744719	ren duo hao ban shi
+proverbs	人多手脚乱	人多手腳亂	60744718	ren duo shou jiao luan
+proverbs	人必自侮然后人侮之	人必自侮然後人侮之	73762349	ren bi zi wu ran hou ren wu zhi
+proverbs	人必自侮而后人侮之	人必自侮而後人侮之	81774115	ren bi zi wu er hou ren wu zhi
+proverbs	人必自重而后人重之	人必自重而後人重之	60744696	ren bi zi zhong er hou ren zhong zhi
+proverbs	人怕出名猪怕肥	人怕出名豬怕肥	70268802	ren pa chu ming zhu pa fei
+proverbs	人无千日好花无百日红	人無千日好，花無百日紅	91991467	ren wu qian ri hao hua wu bai ri hong
+proverbs	人比人气死人	人比人，氣死人	90206533	ren bi ren qi si ren
+proverbs	人生如戏戏如人生	人生如戲，戲如人生	92389060	ren sheng ru xi xi ru ren sheng
+proverbs	人贵自知	人貴自知	65946253	ren gui zi zhi
+proverbs	人过留名雁过留声	人過留名，雁過留聲	77658723	ren guo liu ming yan guo liu sheng
+proverbs	人靠衣装佛靠金装	人靠衣裝，佛靠金裝	90206620	ren kao yi zhuang fo kao jin zhuang
+proverbs	他山之石可以攻玉	他山之石，可以攻玉	88361059	ta shan zhi shi ke yi gong yu
+proverbs	但愿人长久千里共婵娟	但願人長久，千里共嬋娟	90057284	dan yuan ren chang jiu qian li gong chan juan
+proverbs	你的样子如何你的日子也必如何	你的樣子如何，你的日子也必如何	90206705	ni de yang zi ru he ni de ri zi ye bi ru he
+proverbs	侯门深似海	侯門深似海	90507403	hou men shen si hai
+proverbs	做一行怨一行	做一行怨一行	78736529	zuo yi hang yuan yi hang
+proverbs	兄弟如手足妻子如衣服	兄弟如手足，妻子如衣服	90381675	xiong di ru shou zu qi zi ru yi fu
+proverbs	先发制人后发制于人	先發制人，後發制於人	61194657	xian fa zhi ren hou fa zhi yu ren
+proverbs	先撩者贱	先撩者賤	60744609	xian liao zhe jian
+proverbs	光阴似箭日月如梭	光陰似箭，日月如梭	92268601	guang yin si jian ri yue ru suo
+proverbs	其身不正虽令不从	其身不正，雖令不從	81774280	qi shen bu zheng sui ling bu cong
+proverbs	养不教父之过	養不教，父之過	90065629	yang bu jiao fu zhi guo
+proverbs	养儿一百岁长忧九十九	養兒一百歲，長憂九十九	78124998	yang er yi bai sui chang you jiu shi jiu
+proverbs	兼听则明偏信则暗	兼聽則明，偏信則暗	60744638	jian ting ze ming pian xin ze an
+proverbs	兼听则明偏听则蔽	兼聽則明，偏聽則蔽	60744654	jian ting ze ming pian ting ze bi
+proverbs	冤冤相报何时了得饶人处且饶人	冤冤相報何時了，得饒人處且饒人	88348580	yuan yuan xiang bao he shi liao de rao ren chu qie rao ren
+proverbs	凡事预则立不预则废	凡事預則立，不預則廢	81774316	fan shi yu ze li bu yu ze fei
+proverbs	分久必合合久必分	分久必合，合久必分	90566426	fen jiu bi he he jiu bi fen
+proverbs	刑不上大夫礼不下庶人	刑不上大夫，禮不下庶人	81774328	xing bu shang da fu li bu xia shu ren
+proverbs	前车覆后车戒	前車覆，後車戒	65011387	qian che fu hou che jie
+proverbs	劳心者治人劳力者治于人	勞心者治人，勞力者治於人	81774360	lao xin zhe zhi ren lao li zhe zhi yu ren
+proverbs	勤有功戏无益	勤有功，戲無益	72217360	qin you gong xi wu yi
+proverbs	十个光头九个富	十個光頭九個富	64545450	shi ge guang tou jiu ge fu
+proverbs	十年河东十年河西	十年河東，十年河西	73940695	shi nian he dong shi nian he xi
+proverbs	十月怀胎一朝分娩	十月懷胎，一朝分娩	84991970	shi yue huai tai yi zhao fen mian
+proverbs	千年王八万年龟	千年王八萬年龜	82926723	qian nian wang ba wan nian gui
+proverbs	千金难买少年穷	千金難買少年窮	62942517	qian jin nan mai shao nian qiong
+proverbs	半大小子吃死老子	半大小子，吃死老子	90206918	ban da xiao zi chi si lao zi
+proverbs	受人之托忠人之事	受人之託，忠人之事	60744365	shou ren zhi tuo zhong ren zhi shi
+proverbs	古今多少事都付笑谈中	古今多少事，都付笑談中	60744449	gu jin duo shao shi dou fu xiao tan zhong
+proverbs	只要功夫深铁杵磨成针	只要功夫深，鐵杵磨成針	90059231	zhi yao gong fu shen tie chu mo cheng zhen
+proverbs	只要目的正当可以不择手段	只要目的正當，可以不擇手段	91322369	zhi yao mu di zheng dang ke yi bu ze shou duan
+proverbs	台上一分钟台下十年功	臺上一分鐘，臺下十年功	90209131	tai shang yi fen zhong tai xia shi nian gong
+proverbs	吃人家的嘴软拿人家的手软	吃人家的嘴軟，拿人家的手軟	90206970	chi ren jia de zui ruan na ren jia de shou ruan
+proverbs	吃得苦中苦方为人上人	吃得苦中苦，方為人上人	80834494	chi de ku zhong ku fang wei ren shang ren
+proverbs	同姓三分亲	同姓三分親	84123434	tong xing san fen qin
+proverbs	同行如敌国	同行如敵國	90383976	tong hang ru di guo
+proverbs	名不正则言不顺	名不正，則言不順	81774543	ming bu zheng ze yan bu shun
+proverbs	君子一言快马一鞭	君子一言，快馬一鞭	60744349	jun zi yi yan kuai ma yi bian
+proverbs	君子交绝不出恶声	君子交絕，不出惡聲	60744653	jun zi jiao jue bu chu e sheng
+proverbs	君子动口不动手	君子動口不動手	75449280	jun zi dong kou bu dong shou
+proverbs	君子喻于义小人喻于利	君子喻於義，小人喻於利	81774596	jun zi yu yu yi xiao ren yu yu li
+proverbs	君子报仇十年不晚	君子報仇，十年不晚	78736531	jun zi bao chou shi nian bu wan
+proverbs	君子爱财取之有道	君子愛財，取之有道	60744726	jun zi ai cai qu zhi you dao
+proverbs	命里有时终须有命里无时莫强求	命裡有時終須有，命裡無時莫強求	86734134	ming li you shi zhong xu you ming li wu shi mo qiang qiu
+proverbs	和尚动得我动不得	和尚動得，我動不得	90207038	he shang dong de wo dong bu de
+proverbs	和尚摸得我摸不得	和尚摸得，我摸不得	73762399	he shang mo de wo mo bu de
+proverbs	善有善报恶有恶报	善有善報，惡有惡報	90558031	shan you shan bao e you e bao
+proverbs	嘴上没毛办事不牢	嘴上沒毛，辦事不牢	90207123	zui shang mei mao ban shi bu lao
+proverbs	团结就是力量	團結就是力量	66480054	tuan jie jiu shi li liang
+proverbs	国有国法家有家规	國有國法，家有家規	64047423	guo you guo fa jia you jia gui
+proverbs	在家千日好出门一时难	在家千日好，出門一時難	76015056	zai jia qian ri hao chu men yi shi nan
+proverbs	在家靠父母出外靠朋友	在家靠父母，出外靠朋友	60744333	zai jia kao fu mu chu wai kao peng you
+proverbs	多个朋友多条路	多個朋友多條路	92079862	duo ge peng you duo tiao lu
+proverbs	大事化小小事化无	大事化小，小事化無	90310106	da shi hua xiao xiao shi hua wu
+proverbs	大人不计小人过	大人不計小人過	60744277	da ren bu ji xiao ren guo
+proverbs	大鱼吃小鱼	大魚吃小魚	88188436	da yu chi xiao yu
+proverbs	大鱼吃小鱼小鱼吃虾米	大魚吃小魚，小魚吃蝦米	87202607	da yu chi xiao yu xiao yu chi xia mi
+proverbs	天下无不散的筵席	天下無不散的筵席	73762475	tian xia wu bu san de yan xi
+proverbs	天下没有不散的宴席	天下沒有不散的宴席	63912269	tian xia mei you bu san de yan xi
+proverbs	天不怕地不怕只怕广东人说官话	天不怕，地不怕，只怕廣東人說官話	90207346	tian bu pa di bu pa zhi pa guang dong ren shuo guan hua
+proverbs	天助自助	天助自助	60744704	tian zhu zi zhu
+proverbs	太阳光大父母恩大君子量大小人气大	太陽光大，父母恩大，君子量大，小人氣大	92299640	tai yang guang da fu mu en da jun zi liang da xiao ren qi da
+proverbs	夫三年之丧天下之通丧也	夫三年之喪，天下之通喪也	81774752	fu san nian zhi sang tian xia zhi tong sang ye
+proverbs	夫妻本是同林鸟大难临头各自飞	夫妻本是同林鳥，大難臨頭各自飛	73762544	fu qi ben shi tong lin niao dan an lin tou ge zi fei
+proverbs	失败乃成功之母	失敗乃成功之母	60744496	shi bai nai cheng gong zhi mu
+proverbs	失败者成功之母	失敗者成功之母	60744627	shi bai zhe cheng gong zhi mu
+proverbs	女人心海底针	女人心，海底針	90312550	nv ren xin hai di zhen
+proverbs	女大三抱金砖	女大三抱金磚	74134221	nv da san bao jin zhuan
+proverbs	好事不出门坏事传千里	好事不出門，壞事傳千里	76015264	hao shi bu chu men huai shi chuan qian li
+proverbs	好奇害死猫	好奇害死貓	91806532	hao qi hai si mao
+proverbs	好好学习天天向上	好好學習，天天向上	91535685	hao hao xue xi tian tian xiang shang
+proverbs	好心没好报	好心沒好報	69456403	hao xin mei hao bao
+proverbs	好死不如赖活着	好死不如賴活著	74168031	hao si bu ru lai huo zhe
+proverbs	好汉不提当年勇	好漢不提當年勇	61502444	hao han bu ti dang nian yong
+proverbs	好酒沉瓮底	好酒沉甕底	90809615	hao jiu chen weng di
+proverbs	娶妻娶德	娶妻娶德	88656820	qu qi qu de
+proverbs	媳妇熬成婆	媳婦熬成婆	60744411	xi fu ao cheng po
+proverbs	嫁出去的女儿泼出去的水	嫁出去的女兒，潑出去的水	85032845	jia chu qu de nv er po chu qu de shui
+proverbs	学如逆水行舟不进则退	學如逆水行舟，不進則退	90384971	xue ru ni shui xing zhou bu jin ze tui
+proverbs	宁为鸡口无为牛后	寧為雞口，無為牛後	90207643	ning wei ji kou wu wei niu hou
+proverbs	宁卖祖宗田不卖祖宗言	寧賣祖宗田，不賣祖宗言	90207680	ning mai zu zong tian bu mai zu zong yan
+proverbs	宁卖祖宗田不忘祖宗言	寧賣祖宗田，不忘祖宗言	61778070	ning mai zu zong tian bu wang zu zong yan
+proverbs	宁可玉碎不能瓦全	寧可玉碎，不能瓦全	89138090	ning ke yu sui bu neng wa quan
+proverbs	宁在人前全不会莫在人前会不全	寧在人前全不會，莫在人前會不全	77952571	ning zai ren qian quan bu hui mo zai ren qian hui bu quan
+proverbs	宁鸣而死不默而生	寧鳴而死，不默而生	83693585	ning ming er si bu mo er sheng
+proverbs	官字两个口	官字兩個口	86824927	guan zi liang ge kou
+proverbs	害人之心不可有防人之心不可无	害人之心不可有，防人之心不可無	71229789	hai ren zhi xin bu ke you fang ren zhi xin bu ke wu
+proverbs	家和万事兴	家和萬事興	80967098	jia he wan shi xing
+proverbs	富贵险中求	富貴險中求	65015458	fu gui xian zhong qiu
+proverbs	射人先射马擒贼先擒王	射人先射馬，擒賊先擒王	75954629	she ren xian she ma qin zei xian qin wang
+proverbs	小别胜新婚	小別勝新婚	60744499	xiao bie sheng xin hun
+proverbs	小时偷针大时偷金	小時偷針，大時偷金	90207712	xiao shi tou zhen da shi tou jin
+proverbs	小财不出大财不入	小財不出，大財不入	78622045	xiao cai bu chu da cai bu ru
+proverbs	尺有所短寸有所长	尺有所短，寸有所長	81715785	chi you suo duan cun you suo chang
+proverbs	屋漏偏逢连夜雨	屋漏偏逢連夜雨	92071114	wu lou pian feng lian ye yu
+proverbs	屋漏偏逢连阴雨	屋漏偏逢連陰雨	92070978	wu lou pian feng lian yin yu
+proverbs	山不转路转	山不轉路轉	84454567	shan bu zhuan lu zhuan
+proverbs	山中无老虎猴子称大王	山中無老虎，猴子稱大王	72587838	shan zhong wu lao hu hou zi cheng da wang
+proverbs	工欲善其事必先利其器	工欲善其事，必先利其器	81775089	gong yu shan qi shi bi xian li qi qi
+proverbs	巧言令色鲜矣仁	巧言令色，鮮矣仁	89843358	qiao yan ling se xian yi ren
+proverbs	差若毫厘谬以千里	差若毫釐，謬以千里	90207806	cha ruo hao li miu yi qian li
+proverbs	己立立人己达达人	己立立人，己達達人	81775119	ji li li ren ji da da ren
+proverbs	平安就是福	平安就是福	86640189	ping an jiu shi fu
+proverbs	平时不烧香临时抱佛脚	平時不燒香，臨時抱佛腳	72176555	ping shi bu shao xiang lin shi bao fo jiao
+proverbs	平生不做亏心事半夜敲门也不惊	平生不做虧心事，半夜敲門也不驚	70268832	ping sheng bu zuo kui xin shi ban ye qiao men ye bu jing
+proverbs	床头吵架床尾和	床頭吵架床尾和	69497397	chuang tou chao jia chuang wei he
+proverbs	庙小妖风大池浅王八多	廟小妖風大，池淺王八多	60744733	miao xiao yao feng da chi qian wang ba duo
+proverbs	强宾不压主	強賓不壓主	60744481	qiang bin bu ya zhu
+proverbs	德不孤必有邻	德不孤，必有鄰	82700081	de bu gu bi you lin
+proverbs	忍一时越想越气退一步越想越亏	忍一時越想越氣，退一步越想越虧	90751169	ren yi shi yue xiang yue qi tui yi bu yue xiang yue kui
+proverbs	忍一时风平浪静	忍一時風平浪靜	63589997	ren yi shi feng ping lang jing
+proverbs	患难见真情	患難見真情	91536187	huan nan jian zhen qing
+proverbs	慢工出细活	慢工出細活	73152022	man gong chu xi huo
+proverbs	慢工出细货	慢工出細貨	73151986	man gong chu xi huo
+proverbs	成则为王败则为寇	成則為王，敗則為寇	92090726	cheng ze wei wang bai ze wei kou
+proverbs	成者为王败者为寇	成者為王，敗者為寇	92080146	cheng zhe wei wang bai zhe wei kou
+proverbs	打是疼骂是爱	打是疼，罵是愛	60744327	da shi teng ma shi ai
+proverbs	打者爱也	打者愛也	60744529	da zhe ai ye
+proverbs	扬汤止沸不如去薪	揚湯止沸，不如去薪	81577224	yang tang zhi fei bu ru qu xin
+proverbs	挨金似金挨玉似玉挨著木匠学拉锯	挨金似金，挨玉似玉，挨著木匠學拉鋸	92049266	ai jin si jin ai yu si yu ai zhe mu jiang xue la ju
+proverbs	敌人的敌人就是朋友	敵人的敵人就是朋友	69909471	di ren di di ren jiu shi peng you
+proverbs	救人一命胜造七级浮屠	救人一命，勝造七級浮屠	86586160	jiu ren yi ming sheng zao qi ji fu tu
+proverbs	斩草不除根春风吹又生	斬草不除根，春風吹又生	61516164	zhan cao bu chu gen chun feng chui you sheng
+proverbs	新官上任三把火	新官上任三把火	73157140	xin guan shang ren san ba huo
+proverbs	无事献殷勤非奸即盗	無事獻殷勤，非奸即盜	89785216	wu shi xian yin qin fei jian ji dao
+proverbs	无毒不丈夫	無毒不丈夫	82606058	wu du bu zhang fu
+proverbs	日有所思夜有所梦	日有所思，夜有所夢	64987608	ri you suo si ye you suo meng
+proverbs	时间能治愈一切创伤	時間能治癒一切創傷	81035377	shi jian neng zhi yu yi qie chuang shang
+proverbs	是金子总会发光的	是金子總會發光的	60744621	shi jin zi zong hui fa guang de
+proverbs	是骡子是马拉出来遛遛	是騾子是馬拉出來遛遛	92080664	shi luo zi shi ma la chu lai liu liu
+proverbs	普天之下莫非王土	普天之下，莫非王土	81342330	pu tian zhi xia mo fei wang tu
+proverbs	智者千虑必有一失	智者千慮，必有一失	88384349	zhi zhe qian lv bi you yi shi
+proverbs	曾着卖糖君子哄如今不信口甜人	曾著賣糖君子哄，如今不信口甜人	66134727	ceng zhao mai tang jun zi hong ru jin bu xin kou tian ren
+proverbs	有其母必有其子	有其母必有其子	65337421	you qi mu bi you qi zi
+proverbs	有理走遍天下无理寸步难行	有理走遍天下，無理寸步難行	60744604	you li zou bian tian xia wu li cun bu nan xing
+proverbs	有麝自然香	有麝自然香	89754191	you she zi ran xiang
+proverbs	本是同根生相煎何太急	本是同根生，相煎何太急	64532438	ben shi tong gen sheng xiang jian he tai ji
+proverbs	本自同根生相煎何太急	本自同根生，相煎何太急	73762487	ben zi tong gen sheng xiang jian he tai ji
+proverbs	杀人偿命欠债还钱	殺人償命，欠債還錢	84861854	sha ren chang ming qian zhai huan qian
+proverbs	条条大路通罗马	條條大路通羅馬	76422996	tiao tiao da lu tong luo ma
+proverbs	来说是非者便是是非人	來說是非者，便是是非人	80747169	lai shuo shi fei zhe bian shi shi fei ren
+proverbs	林子大了什么鸟都有	林子大了，什麼鳥都有	71628738	lin zi da le shen me niao dou you
+proverbs	枪打出头鸟	槍打出頭鳥	92779889	qiang da chu tou niao
+proverbs	树倒猢狲散	樹倒猢猻散	64463749	shu dao hu sun san
+proverbs	桂林山水甲天下	桂林山水甲天下	90208471	gui lin shan shui jia tian xia
+proverbs	棋错一着满盘皆输	棋錯一著，滿盤皆輸	60744597	qi cuo yi zhao man pan jie shu
+proverbs	棍棒之下出孝子	棍棒之下出孝子	60744665	gun bang zhi xia chu xiao zi
+proverbs	棍棒底下出孝子	棍棒底下出孝子	60744664	gun bang di xia chu xiao zi
+proverbs	棒下出孝子	棒下出孝子	60744666	bang xia chu xiao zi
+proverbs	死有重于泰山轻于鸿毛	死有重於泰山，輕於鴻毛	60744464	si you zhong yu tai shan qing yu hong mao
+proverbs	每日一苹果医生远离我	每日一蘋果，醫生遠離我	90060779	mei ri yi ping guo yi sheng yuan li wo
+proverbs	池中无鱼虾自大	池中無魚蝦自大	72583873	chi zhong wu yu xia zi da
+proverbs	没有金刚钻别揽瓷器活	沒有金剛鑽，別攬瓷器活	71011077	mei you jing ang zuan bie lan ci qi huo
+proverbs	温言在口大棒在手	溫言在口，大棒在手	90252800	wen yan zai kou da bang zai shou
+proverbs	湖广熟天下足	湖廣熟，天下足	90208644	hu guang shu tian xia zu
+proverbs	满招损谦受益	滿招損，謙受益	76102046	man zhao sun qian shou yi
+proverbs	燕雀安知鸿鹄志	燕雀安知鴻鵠志	60744458	yan que an zhi hong hu zhi
+proverbs	爱之欲其生恶之欲其死	愛之欲其生，惡之欲其死	81775296	ai zhi yu qi sheng wu zhi yu qi si
+proverbs	爱之深责之切	愛之深責之切	60744636	ai zhi shen ze zhi qie
+proverbs	爱兵如子用兵如山	愛兵如子，用兵如山	92049433	ai bing ru zi yong bing ru shan
+proverbs	牡丹花下死做鬼也风流	牡丹花下死，做鬼也風流	69201663	mu dan hua xia si zuo gui ye feng liu
+proverbs	瓜田不纳履李下不整冠	瓜田不納履，李下不整冠	66347661	gua tian bu na lv li xia bu zheng guan
+proverbs	由俭入奢易由奢入俭难	由儉入奢易，由奢入儉難	77791592	you jian ru she yi you she ru jian nan
+proverbs	留得青山在不怕没柴烧	留得青山在，不怕沒柴燒	70268796	liu de qing shan zai bu pa mei chai shao
+proverbs	病从口入祸从口出	病從口入，禍從口出	88851373	bing cong kou ru huo cong kou chu
+proverbs	病向浅中医	病向淺中醫	60744730	bing xiang qian zhong yi
+proverbs	病来如山倒病去如抽丝	病來如山倒，病去如抽絲	90453249	bing lai ru shan dao bing qu ru chou si
+proverbs	相见好同住难	相見好，同住難	79422529	xiang jian hao tong zhu nan
+proverbs	知之为知之不知为不知	知之為知之，不知為不知	90208921	zhi zhi wei zhi zhi bu zhi wei bu zhi
+proverbs	知人者智自知者明	知人者智，自知者明	78746988	zhi ren zhe zhi zi zhi zhe ming
+proverbs	知己知彼百战不殆	知己知彼，百戰不殆	88265299	zhi ji zhi bi bai zhan bu dai
+proverbs	知己知彼百战百胜	知己知彼，百戰百勝	70583168	zhi ji zhi bi bai zhan bai sheng
+proverbs	矮子矮一肚子拐	矮子矮，一肚子拐	69492080	ai zi ai yi du zi guai
+proverbs	矮檐之下出头难	矮檐之下出頭難	92049391	ai yan zhi xia chu tou nan
+proverbs	礼之用和为贵	禮之用，和為貴	81776110	li zhi yong he wei gui
+proverbs	神仙打架小鬼遭殃	神仙打架，小鬼遭殃	60979649	shen xian da jia xiao gui zao yang
+proverbs	福不重至祸必重来	福不重至，禍必重來	70283492	fu bu chong zhi huo bi chong lai
+proverbs	福无双至祸不单行	福無雙至，禍不單行	85368904	fu wu shuang zhi huo bu dan xing
+proverbs	秀才不出门全知天下事	秀才不出門，全知天下事	84861953	xiu cai bu chu men quan zhi tian xia shi
+proverbs	秀才不出门能知天下事	秀才不出門，能知天下事	84861954	xiu cai bu chu men neng zhi tian xia shi
+proverbs	胜者王侯败者寇	勝者王侯敗者寇	92080152	sheng zhe wang hou bai zhe kou
+proverbs	胜者王侯败者贼	勝者王侯敗者賊	92080151	sheng zhe wang hou bai zhe zei
+proverbs	自助者天助之	自助者天助之	60744593	zi zhu zhe tian zhu zhi
+proverbs	自古皆有死人无信不立	自古皆有死，人無信不立	60744473	zi gu jie you si ren wu xin bu li
+proverbs	自古皆有死民无信不立	自古皆有死，民無信不立	63837621	zi gu jie you si min wu xin bu li
+proverbs	自古红颜多薄命	自古紅顏多薄命	84632651	zi gu hong yan duo bo ming
+proverbs	色字头上一把刀	色字頭上一把刀	74117677	se zi tou shang yi ba dao
+proverbs	苍蝇附骥尾而致千里	蒼蠅附驥尾而致千里	92068809	cang ying fu ji wei er zhi qian li
+proverbs	若要人不知除非己莫为	若要人不知，除非己莫為	73632826	ruo yao ren bu zhi chu fei ji mo wei
+proverbs	英雄难过美人关	英雄難過美人關	64885194	ying xiong nan guo mei ren guan
+proverbs	萝卜白菜各有所爱	蘿蔔白菜，各有所愛	90209197	luo bo bai cai ge you suo ai
+proverbs	落水的凤凰不如鸡	落水的鳳凰不如雞	60744552	luo shui de feng huang bu ru ji
+proverbs	蓬生麻中不扶而直	蓬生麻中，不扶而直	60744651	peng sheng ma zhong bu fu er zhi
+proverbs	虎死留皮人死留名	虎死留皮，人死留名	77954711	hu si liu pi ren si liu ming
+proverbs	虎落平阳被犬欺	虎落平陽被犬欺	60744569	hu luo ping yang bei quan qi
+proverbs	蜀中无大将廖化作先锋	蜀中無大將，廖化作先鋒	75262129	shu zhong wu da jiang liao hua zuo xian feng
+proverbs	蝇附骥尾而致千里	蠅附驥尾而致千里	92068835	ying fu ji wei er zhi qian li
+proverbs	要想富先修路	要想富先修路	88657230	yao xiang fu xian xiu lu
+proverbs	覆巢之下安有完卵	覆巢之下，安有完卵	73762351	fu chao zhi xia an you wan luan
+proverbs	覆巢之下岂有完卵	覆巢之下，豈有完卵	73762352	fu chao zhi xia qi you wan luan
+proverbs	覆巢之下焉有完卵	覆巢之下，焉有完卵	73762350	fu chao zhi xia yan you wan luan
+proverbs	见者易学者难	見者易，學者難	60744619	jian zhe yi xue zhe nan
+proverbs	见面三分情	見面三分情	60744357	jian mian san fen qing
+proverbs	观棋不语真君子起手无回大丈夫	觀棋不語真君子，起手無回大丈夫	81484512	guan qi bu yu zhen jun zi qi shou wu hui da zhang fu
+proverbs	计划赶不上变化	計劃趕不上變化	82318433	ji hua gan bu shang bian hua
+proverbs	请神容易送神难	請神容易送神難	82540267	qing shen rong yi song shen nan
+proverbs	读万卷书行万里路	讀萬卷書，行萬里路	60744437	du wan juan shu xing wan li lu
+proverbs	谋事在人成事在天	謀事在人，成事在天	60744575	mou shi zai ren cheng shi zai tian
+proverbs	货比三家不吃亏	貨比三家不吃虧	64901647	huo bi san jia bu chi kui
+proverbs	路遥知马力事久见人心	路遙知馬力，事久見人心	64713213	lu yao zhi ma li shi jiu jian ren xin
+proverbs	路遥知马力日久见人心	路遙知馬力，日久見人心	60744673	lu yao zhi ma li ri jiu jian ren xin
+proverbs	退一步海阔天空	退一步海闊天空	78734013	tui yi bu hai kuo tian kong
+proverbs	送君千里终须一别	送君千里，終須一別	91535758	song jun qian li zhong xu yi bie
+proverbs	酒后吐真言	酒後吐真言	75198849	jiu hou tu zhen yan
+proverbs	酒肉穿肠过佛祖心中留	酒肉穿腸過，佛祖心中留	70598695	jiu rou chuan chang guo fo zu xin zhong liu
+proverbs	酒逢知己千杯少话不投机半句多	酒逢知己千杯少，話不投機半句多	92080986	jiu feng zhi ji qian bei shao hua bu tou ji ban ju duo
+proverbs	里面的人想出去外面的人想进来	裡面的人想出去，外面的人想進來	60744580	li mian de ren xiang chu qu wai mian de ren xiang jin lai
+proverbs	金无足赤人无完人	金無足赤，人無完人	84571675	jin wu zu chi ren wu wan ren
+proverbs	金窝银窝不如自己的狗窝	金窩銀窩，不如自己的狗窩	90209582	jin wo yin wo bu ru zi ji de gou wo
+proverbs	钱不是万能但没钱万万不能	錢不是萬能，但沒錢萬萬不能	90209603	qian bu shi wan neng dan mei qian wan wan bu neng
+proverbs	阎王叫你三更死谁敢留人到五更	閻王叫你三更死，誰敢留人到五更	63739513	yan wang jiao ni sang eng si shei gan liu ren dao wu geng
+proverbs	阿婆不嫁女哪得孙儿抱	阿婆不嫁女，哪得孫兒抱	92049310	a po bu jia nv na de sun er bao
+proverbs	雄辩是银沉默是金	雄辯是銀，沉默是金	74189223	xiong bian shi yin chen mo shi jin
+proverbs	需要是发明之母	需要是發明之母	60744518	xu yao shi fa ming zhi mu
+proverbs	青出于蓝而青于蓝	青出於藍，而青於藍	90341954	qing chu yu lan er qing yu lan
+proverbs	预防重于治疗	預防重於治療	60744472	yu fang zhong yu zhi liao
+proverbs	风雨如晦鸡鸣不已	風雨如晦，雞鳴不已	81777095	feng yu ru hui ji ming bu yi
+proverbs	食不言寝不语	食不言，寢不語	81777114	shi bu yan qin bu yu
+proverbs	饭后百步走活到九十九	飯後百步走，活到九十九	90209745	fan hou bai bu zou huo dao jiu shi jiu
+proverbs	饿死事小失节事大	餓死事小，失節事大	75497797	e si shi xiao shi jie shi da
+proverbs	饿死的骆驼比马大	餓死的駱駝比馬大	92381242	e si de luo tuo bi ma da
+proverbs	马路如虎口	馬路如虎口	90453746	ma lu ru hu kou
+proverbs	骗得了一时骗不了一世	騙得了一時，騙不了一世	70715868	pian de liao yi shi pian bu liao yi shi
+proverbs	鱼与熊掌不可兼得	魚與熊掌不可兼得	92068830	yu yu xiong zhang bu ke jian de
+proverbs	鹬蚌相争渔人得利	鷸蚌相爭，漁人得利	84123064	yu bang xiang zheng yu ren de li
+proverbs	黄河百害唯富一套	黃河百害，唯富一套	67389253	huang he bai hai wei fu yi tao
+proverbs	龙生龙凤生凤老鼠的儿子会打洞	龍生龍，鳳生鳳，老鼠的兒子會打洞	92474319	long sheng long feng sheng feng lao shu de er zi hui da dong
+xiehouyu	丈八灯台照远不照近	丈八燈臺——照遠不照近	74129468	zhang ba deng tai zhao yuan bu zhao jin
+xiehouyu	刘备借荆州有借无还	劉備借荊州——有借無還	88988074	liu bei jie jing zhou you jie wu huan
+xiehouyu	到火神庙求雨找错了门	到火神廟求雨——找錯了門	78787655	dao huo shen miao qiu yu zhao cuo le men
+xiehouyu	十五个吊桶打水七上八下	十五個吊桶打水——七上八下	74168862	shi wu ge diao tong da shui qi shang ba xia
+xiehouyu	周瑜打黄盖一个愿打一个愿挨	周瑜打黃蓋——一個願打，一個願挨	75585595	zhou yu da huang gai yi ge yuan da yi ge yuan ai
+xiehouyu	和尚打伞无法无天	和尚打傘——無法無天	92160569	he shang da san wu fa wu tian
+xiehouyu	和尚训道士管得宽	和尚訓道士——管得寬	78787641	he shang xun dao shi guan de kuan
+xiehouyu	咸菜烧豆腐	鹹菜燒豆腐	78692958	xian cai shao dou fu
+xiehouyu	哑巴吃黄连有苦说不出	啞巴吃黃連——有苦說不出	74166632	ya ba chi huang lian you ku shuo bu chu
+xiehouyu	坟头上耍大刀吓鬼	墳頭上耍大刀——嚇鬼	75620473	fen tou shang shua da dao xia gui
+xiehouyu	外甥打灯笼照旧	外甥打燈籠——照舊	74163996	wai sheng da deng long zhao jiu
+xiehouyu	姜太公封神漏了自己	姜太公封神——漏了自己	74175464	jiang tai gong feng shen lou liao zi ji
+xiehouyu	姜太公钓鱼愿者上钩	姜太公釣魚——願者上鉤	73945312	jiang tai gong diao yu yuan zhe shang gou
+xiehouyu	孔夫子搬家净是书	孔夫子搬家——淨是書	74168868	kong fu zi ban jia jing shi shu
+xiehouyu	孙悟空大闹天宫慌了神	孫悟空大鬧天宮——慌了神	74182542	sun wu kong da nao tian gong huang le shen
+xiehouyu	小和尚念经有口无心	小和尚念經——有口無心	74163832	xiao he shang nian jing you kou wu xin
+xiehouyu	摸着石头过河走一步算一步	摸著石頭過河——走一步算一步	73950061	mo zhe shi tou guo he zou yi bu suan yi bu
+xiehouyu	武则天守寡失去理智	武則天守寡——失去理智	91687317	wu ze tian shou gua shi qu li zhi
+xiehouyu	泥菩萨过江自身难保	泥菩薩過江——自身難保	74166460	ni pu sa guo jiang zi shen nan bao
+xiehouyu	牛皮灯笼	牛皮燈籠	88257607	niu pi deng long
+xiehouyu	猪八戒吃人参果全不知滋味	豬八戒吃人參果——全不知滋味	78787506	zhu ba jie chi ren shen guo quan bu zhi zi wei
+xiehouyu	猪八戒照镜子里外不是人	豬八戒照鏡子——裡外不是人	84627055	zhu ba jie zhao jing zi li wai bu shi ren
+xiehouyu	猪八戒穿红袍不伦不类	豬八戒穿紅袍——不倫不類	78787717	zhu ba jie chuan hong pao bu lun bu lei
+xiehouyu	猫哭老鼠假慈悲	貓哭老鼠——假慈悲	84439983	mao ku lao shu jia ci bei
+xiehouyu	猫哭耗子假慈悲	貓哭耗子——假慈悲	84440009	mao ku hao zi jia ci bei
+xiehouyu	皇帝的女儿不愁嫁	皇帝的女兒——不愁嫁	78787537	huang di de nv er bu chou jia
+xiehouyu	矮子骑大马上下两难	矮子騎大馬——上下兩難	78787517	ai zi qi da ma shang xia liang nan
+xiehouyu	秀才造反三年不成	秀才造反，三年不成	84861955	xiu cai zao fan san nian bu cheng
+xiehouyu	秀才遇到兵有理说不清	秀才遇到兵——有理說不清	83650565	xiu cai yu dao bing you li shuo bu qing
+xiehouyu	秋后的蚂蚱蹦跶不了几天	秋後的螞蚱——蹦躂不了幾天	84861960	qiu hou di ma zha beng da bu liao ji tian
+xiehouyu	老太婆的裹脚布又臭又长	老太婆的裹腳布——又臭又長	80979863	lao tai po de guo jiao bu you chou you chang
+xiehouyu	老王卖瓜自卖自夸	老王賣瓜——自賣自誇	90341406	lao wang mai gua zi mai zi kua
+xiehouyu	螃蟹过河七手八脚	螃蟹過河——七手八腳	75954675	pang xie guo he qi shou ba jiao
+xiehouyu	踏破铁鞋无觅处得来全不费工夫	踏破鐵鞋無覓處，得來全不費工夫	90341907	ta po tie xie wu mi chu de lai quan bu fei gong fu
+xiehouyu	过街老鼠人人喊打	過街老鼠——人人喊打	84862142	guo jie lao shu ren ren han da
+xiehouyu	阎罗王贴告示鬼话连篇	閻羅王貼告示——鬼話連篇	74979214	yan luo wang tie gao shi gui hua lian pian
+xiehouyu	霸王敬酒不干也得干	霸王敬酒——不乾也得乾	78787590	ba wang jing jiu bu gan ye de gan
+xiehouyu	黄鼠狼给鸡拜年没安好心	黃鼠狼給雞拜年——沒安好心	83066071	huang shu lang gei ji bai nian mei an hao xin

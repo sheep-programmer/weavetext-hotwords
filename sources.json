@@ -88,7 +88,72 @@
       "rows": 57,
       "annotation": "reviewed allowlist from the slang list's everyday-language sections and the yearly top-ten internet terms/buzzwords; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
       "output": "words/imported-wikipedia-slang.tsv",
-      "output_sha256": "eca30c594edd60c0a7e8a1771eb0e3a15338cbb6c1ce94ec6664011bcfff590c"
+      "output_sha256": "c1d840edd91a0080a690ab7f0336891255f9101d9da0319c5b0105bdfe76c234"
+    },
+    {
+      "id": "wikipedia-news",
+      "project": "Chinese Wikipedia: 汉语盘点, 咬文嚼字",
+      "url": "https://zh.wikipedia.org/w/index.php?oldid=93299004",
+      "revision": {
+        "汉语盘点": 93299004,
+        "咬文嚼字": 94531753
+      },
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wikipedia-hypd.wiki",
+        "wikipedia-ywjz.wiki"
+      ],
+      "sha256": {
+        "wikipedia-hypd.wiki": "39fda6c1d0de0bcfb450d8e711a6d5b36a7a9d03b6bd89a720d0af4eca92db68",
+        "wikipedia-ywjz.wiki": "f9ecb3951d7fbb4f0a7f666667f357edf003a3098fcad8308f806dabcb64721d"
+      },
+      "rows": 93,
+      "annotation": "reviewed allowlist of neutral current-affairs, science, culture and sport terms from the yearly lists; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
+      "output": "words/imported-wikipedia-news.tsv",
+      "output_sha256": "da45c04d0cfd116bc220178c573aefc723d1e35b36e56a397b0ddee94299cc8c"
+    },
+    {
+      "id": "wiktionary-idioms",
+      "project": "English Wiktionary: Chinese proverbs, xiehouyu, chengyu and idioms",
+      "url": "https://en.wiktionary.org/wiki/Category:Chinese_proverbs",
+      "revision": "per entry, pinned in tools/wiktionary-idioms.tsv",
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wiktionary-idioms.json"
+      ],
+      "sha256": {
+        "wiktionary-idioms.json": "ebeca28bad0e9383ad9a017e92050845f469bb2a70e941cf0cbe6e03aed1a476"
+      },
+      "rows": 985,
+      "annotation": "reviewed allowlist; Mandarin pinyin from each entry (一/不 sandhi shorthand restored), toneless; labelled vulgar/derogatory/offensive/dialect-only/obsolete entries and alternative forms refused; traditional entries converted with OpenCC t2s",
+      "output": "words/imported-wiktionary-idioms.tsv",
+      "output_sha256": "9e69cde62da1f355f717ac0bb42d1f927c46a660f043bf67a5d2a8d7df930d33"
+    },
+    {
+      "id": "poetry",
+      "project": "chinese-poetry/chinese-poetry",
+      "url": "https://github.com/chinese-poetry/chinese-poetry/tree/b8594f81a89752241442f2ce267d6f66f96704ee",
+      "revision": "b8594f81a89752241442f2ce267d6f66f96704ee",
+      "license": "MIT",
+      "file": [
+        "蒙学/zengguangxianwen.json",
+        "蒙学/zhuzijiaxun.json",
+        "蒙学/qianjiashi.json",
+        "全唐诗/唐诗三百首.json",
+        "宋词/宋词三百首.json"
+      ],
+      "sha256": {
+        "zengguangxianwen.json": "b172194c227f1dcccdd2598d23f7c17b5906504085b142f482b35f5fca982fcb",
+        "zhuzijiaxun.json": "f5f45ed43cf4bb866a41616401ce218fe1db4fa019dde6f69ed8f91b6f4bd8b6",
+        "qianjiashi.json": "cf34d01ed29528052da5d96543e725ab67814a6cb093183808c889400ff62417",
+        "唐诗三百首.json": "d77a145f7470da2ed2f79515944563c062ffc43fceda07f195a36ead66b7e5c7",
+        "宋词三百首.json": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+        "poetry-annotated.yaml": "06c1925646ff45ebf5586892882b5487136e124c128ff864b6edb3897ac9f6cf"
+      },
+      "rows": 2785,
+      "annotation": "OpenCC 1.4.2 t2s, cut at punctuation into 4-9 character GB2312 lines, built-in duplicates removed; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0)",
+      "output": "words/imported-poetry.tsv",
+      "output_sha256": "909a9ae9284e7fb51c6cb1e710603f3e4711a522f530e0c6e30b345fcaf1f570"
     }
   ],
   "annotation_sha256": "b2c236e6b67ca60e4457ccf2bbe5c358c35f9e6db4e84f848be6250fbca3f401"

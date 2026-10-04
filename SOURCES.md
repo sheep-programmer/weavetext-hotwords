@@ -1,6 +1,6 @@
 # 词库来源与许可
 
-这是织文主动下载的公共补充词表，不收集个人输入，也不向上游查询每次按键。当前包含自主整理的词与网络热梗、万象的通用补充、THUOCL 的 IT 术语，以及维基词典、维基百科收录的网络用语。
+这是织文主动下载的公共补充词表，不收集个人输入，也不向上游查询每次按键。当前包含自主整理的词与网络热梗、万象的通用补充、THUOCL 的 IT 术语，维基词典、维基百科收录的网络用语、年度时政文化词、谚语歇后语和成语，以及 chinese-poetry 的诗词名句。
 
 | 数据 | 来源与固定版本 | 许可 | 本次处理 |
 |---|---|---|---|
@@ -8,6 +8,9 @@
 | `words/2026-10-memes.tsv` | WeaveText contributors 独立整理的网络热梗 | CC0-1.0 | 只收常见说法，人工核对拼音；不收侮辱、低俗、政治与针对真人的梗 |
 | `words/imported-wiktionary-slang.tsv` | [英文维基词典 Category:Chinese internet slang](https://en.wiktionary.org/wiki/Category:Chinese_internet_slang)，每个词条的固定版本号见 `tools/import_wiki.py` | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt) | 人工审阅白名单；带粗俗、贬义、冒犯等标签的词条拒收；繁体词条转简体，拼音取自词条的普通话读音并去声调（词条拼音不完整的几条改用 `dictgen annotate` 注音后人工核对）；去掉内置词库和手工词表已有的词 |
 | `words/imported-wikipedia-slang.tsv` | 中文维基百科「[中国大陆网络用语列表](https://zh.wikipedia.org/w/index.php?oldid=94713536)」「[汉语盘点](https://zh.wikipedia.org/w/index.php?oldid=93299004)」「[咬文嚼字](https://zh.wikipedia.org/w/index.php?oldid=94531753)」的固定版本 | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)；注音所用万象数据为 CC-BY-4.0 | 人工审阅白名单：列表只取日常用语类章节，另两篇只取历年「十大网络用语」「十大流行语」里的网络用语；用 `dictgen annotate` 按万象注音后人工核对；去掉已有的词 |
+| `words/imported-wikipedia-news.tsv` | 中文维基百科「[汉语盘点](https://zh.wikipedia.org/w/index.php?oldid=93299004)」「[咬文嚼字](https://zh.wikipedia.org/w/index.php?oldid=94531753)」的固定版本 | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt)；注音所用万象数据为 CC-BY-4.0 | 人工审阅白名单：历年十大新词语、流行语里的官方提法和时政、科技、文体用词，只收中性说法；`dictgen annotate` 注音后人工核对 |
+| `words/imported-wiktionary-idioms.tsv` | 英文维基词典 [Chinese proverbs](https://en.wiktionary.org/wiki/Category:Chinese_proverbs)、[xiehouyu](https://en.wiktionary.org/wiki/Category:Chinese_xiehouyu)、[chengyu](https://en.wiktionary.org/wiki/Category:Chinese_chengyu)、[idioms](https://en.wiktionary.org/wiki/Category:Chinese_idioms) 分类，每个词条的固定版本见 `tools/wiktionary-idioms.tsv` | [CC-BY-SA-4.0](LICENSES/CC-BY-SA-4.0.txt) | 人工审阅白名单；带粗俗、贬义、冒犯、仅限方言、废弃等标签的词条和异体写法拒收；繁体用 OpenCC 转简体，拼音取自词条（还原「一」「不」的变调简写）并去声调；去掉已有的词 |
+| `words/imported-poetry.tsv` | [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry/tree/b8594f81a89752241442f2ce267d6f66f96704ee)：《增广贤文》《朱子家训》《千家诗》《唐诗三百首》《宋词三百首》 | [MIT](LICENSES/chinese-poetry-MIT.txt)（古籍原文为公有领域）；注音所用万象数据为 CC-BY-4.0 | OpenCC 繁转简，按标点切成 4–9 字的句子，只留 GB2312 常用字，去掉内置已有；`dictgen annotate` 注音，多音字可能少量误读，权重很低 |
 | `words/imported-wanxiang-new.tsv` | [amzxyz/rime-wanxiang](https://github.com/amzxyz/rime-wanxiang/tree/908108a09121aaf7ba2cad1fcfbe71b427ea9090)，`dicts/jichu.dict.yaml` | [CC-BY-4.0](LICENSES/CC-BY-4.0.txt) | 去声调、ü 写 v，排除内置词库已有词、过滤非中文与无效音节，保留新增且有一定频率的词，压低权重 |
 | `words/imported-thuocl-it.tsv` | [THUNLP / THUOCL](https://github.com/thunlp/THUOCL/tree/a30ce79d895d01ab5132a5c74c29703ff7efb4cc)，`data/THUOCL_IT.txt`；Copyright © 2018 THUNLP | [MIT](LICENSES/THUOCL-MIT.txt)；补充注音所用万象数据保留 CC-BY-4.0 | 用织文 `dictgen annotate` 按内置万象词表最长匹配注音；去声调，过滤非中文、未能注音的词和已内置词，选取 1200 项并降低权重 |
 
@@ -25,6 +28,8 @@
 2. 使用织文仓库 `fcb3167` 的 `weave-dict` 命令：`dictgen annotate thu-it-annotated.yaml THUOCL_IT.txt <八个基线词表>`。
 3. 把注音结果和原始数据放进缓存目录，执行 `python3 tools/import_sources.py <基线 dicts 目录> <缓存目录>`。脚本先验摘要，再生成同样的两份导入 TSV。
 4. 执行 `python3 tools/build.py --check`；签名发布仍由 GitHub Action 的维护者密钥完成，不改变客户端公钥。
+
+诗词用 `tools/import_poetry.py` 三步生成：`--fetch` 下载、`--candidates` 繁转简切句、`dictgen annotate` 注音，最后核对摘要写出词表，步骤写在脚本开头。
 
 维基来源用 `python3 tools/import_wiki.py --fetch <缓存目录>` 按固定版本下载，再执行 `python3 tools/import_wiki.py <缓存目录>`：脚本核对摘要、标签和审阅过的拼音，生成两份导入词表。
 

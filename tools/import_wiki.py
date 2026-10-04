@@ -1,21 +1,25 @@
 #!/usr/bin/env python3
-"""从固定版本的维基词典、维基百科导入网络用语（CC BY-SA 4.0）。
-Import internet slang from pinned Wiktionary and Wikipedia revisions (CC BY-SA 4.0).
+"""从固定版本的维基词典、维基百科导入网络用语、时政文化词和俗语成语（CC BY-SA 4.0）。
+Import internet slang, current-affairs and culture terms, proverbs and idioms from pinned Wiktionary and Wikipedia
+revisions (CC BY-SA 4.0).
 
 用法 / Usage:
-  python3 tools/import_wiki.py --fetch CACHE   # 按 sources.json 的固定版本下载 / download the pinned revisions
-  python3 tools/import_wiki.py CACHE           # 核对摘要，生成两份导入词表 / verify hashes, write the imported lists
+  python3 tools/import_wiki.py --fetch CACHE   # 按固定版本下载 / download the pinned revisions
+  python3 tools/import_wiki.py CACHE           # 核对摘要，生成导入词表 / verify hashes, write the imported lists
 
-只导入下面人工审阅过的词：去掉侮辱、低俗、政治、地域攻击和针对真人的说法，也去掉内置词库已有的词。
-维基词典词条带「粗俗、贬义、冒犯」等标签的一律不收；拼音取自词条本身并与审阅值核对。
-Only the reviewed words below are imported: insults, vulgarity, politics, regional attacks and memes aimed at real
-people are left out, as are words the built-in dictionary already has. Wiktionary entries labelled vulgar,
-derogatory, offensive and the like are refused; pinyin comes from the entry itself and must match the reviewed value.
+只导入人工审阅过的词，也去掉内置词库和手工词表已有的词。网络用语不收侮辱、低俗、地域攻击和针对真人的说法；
+时政词只收官方提法、年度榜单上的中性说法。维基词典词条带「粗俗、贬义、冒犯」等标签的一律不收，拼音取自词条本身并与审阅值核对。
+Only reviewed words are imported, minus those the built-in dictionary or the hand-curated lists already carry. Slang
+leaves out insults, vulgarity, regional attacks and memes aimed at real people; current-affairs terms are limited to
+neutral official wording and yearly lists. Wiktionary entries labelled vulgar, derogatory, offensive and the like are
+refused; pinyin comes from the entry itself and must match the reviewed value.
 """
 import hashlib,json,re,sys,time,unicodedata,urllib.parse,urllib.request
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 ADDED='2026-10-03'
+MAX_SYLLABLES=10
+SYLLABLES=set((ROOT/'tools/syllables.txt').read_text().split())
 AGENT='weavetext-hotwords/1 (https://github.com/sheep-programmer/weavetext-hotwords)'
 # 简体词 → (维基词典词条, 固定版本, 审阅过的拼音)。 Simplified word → (Wiktionary entry, pinned revision, reviewed pinyin).
 WIKTIONARY={
@@ -111,7 +115,7 @@ WIKIPEDIA={
     '主要看气质':('list','主要看气质','zhu yao kan qi zhi'),
     '还有这种操作':('list','还有这种操作','hai you zhe zhong cao zuo'),
     '贫穷限制了我的想象力':('list','贫穷限制了我的想象力','pin qiong xian zhi le wo de xiang xiang li'),
-    '高速运转的机械进入中国':('list','高速运转的机械进入中国','gao su yun zhuan de ji xie jin ru zhong guo'),
+    '高速运转的机械':('list','高速运转的机械进入中国','gao su yun zhuan de ji xie'),
     '爱你老己':('list','爱你老己','ai ni lao ji'),
     '我劝你善良':('list','我劝你善良','wo quan ni shan liang'),
     '误闯天家':('list','误闯天家','wu chuang tian jia'),
@@ -158,6 +162,108 @@ WIKIPEDIA={
     '融梗':('ywjz','融梗','rong geng'),
     '神马都是浮云':('ywjz','神马都是浮云','shen ma dou shi fu yun'),
 }
+# 时政、科技、文体年度词：简体词 → 审阅过的拼音；在「汉语盘点」「咬文嚼字」的固定版本里核对出处。
+# Yearly current-affairs, science, culture and sport terms: word → reviewed pinyin, checked against the pinned
+# 汉语盘点 and 咬文嚼字 revisions.
+NEWS={
+    '九三阅兵':'jiu san yue bing',
+    '全球治理倡议':'quan qiu zhi li chang yi',
+    '育儿补贴':'yu er bu tie',
+    '网络生态治理':'wang luo sheng tai zhi li',
+    '现代化人民城市':'xian dai hua ren min cheng shi',
+    '跨境支付通':'kua jing zhi fu tong',
+    '对等关税':'dui deng guan shui',
+    '新大众文艺':'xin da zhong wen yi',
+    '超长期特别国债':'chao chang qi te bie guo zhai',
+    '一揽子增量政策':'yi lan zi zeng liang zheng ce',
+    '青年夜校':'qing nian ye xiao',
+    '民营经济促进法':'min ying jing ji cu jin fa',
+    '本源悟空':'ben yuan wu kong',
+    '伏羲一号':'fu xi yi hao',
+    '生成式人工智能':'sheng cheng shi ren gong zhi neng',
+    '全国生态日':'quan guo sheng tai ri',
+    '消费提振年':'xiao fei ti zhen nian',
+    '百模大战':'bai mo da zhan',
+    '墨子巡天':'mo zi xun tian',
+    '全人类共同价值':'quan ren lei gong tong jia zhi',
+    '全球安全倡议':'quan qiu an quan chang yi',
+    '新型实体企业':'xin xing shi ti qi ye',
+    '冰雪经济':'bing xue jing ji',
+    '数字藏品':'shu zi cang pin',
+    '保障性租赁住房':'bao zhang xing zu lin zhu fang',
+    '跨周期调节':'kua zhou qi tiao jie',
+    '无症状感染者':'wu zheng zhuang gan ran zhe',
+    '数字人民币':'shu zi ren min bi',
+    '无接触配送':'wu jie chu pei song',
+    '直播答题':'zhi bo da ti',
+    '限竞房':'xian jing fang',
+    '中国农民丰收节':'zhong guo nong min feng shou jie',
+    '大数据杀熟':'da shu ju sha shou',
+    '共有产权房':'gong you chan quan fang',
+    '共享充电宝':'gong xiang chong dian bao',
+    '网络大电影':'wang luo da dian ying',
+    '人民币入篮':'ren min bi ru lan',
+    '单独二胎':'dan du er tai',
+    '十面霾伏':'shi mian mai fu',
+    '中国式过马路':'zhong guo shi guo ma lu',
+    '弹性延迟':'tan xing yan chi',
+    '莫言热':'mo yan re',
+    '起云剂':'qi yun ji',
+    '北京精神':'bei jing jing shen',
+    '撸起袖子加油干':'lu qi xiu zi jia you gan',
+    '幸福都是奋斗出来的':'xing fu dou shi fen dou chu lai de',
+    '改革开放四十周年':'gai ge kai fang si shi zhou nian',
+    '我和我的祖国':'wo he wo de zu guo',
+    '学习强国':'xue xi qiang guo',
+    '中美经贸磋商':'zhong mei jing mao cuo shang',
+    '先行示范区':'xian xing shi fan qu',
+    '基层减负年':'ji ceng jian fu nian',
+    '人类卫生健康共同体':'ren lei wei sheng jian kang gong tong ti',
+    '党的二十大':'dang de er shi da',
+    '全过程人民民主':'quan guo cheng ren min min zhu',
+    '端稳中国饭碗':'duan wen zhong guo fan wan',
+    '太空会师':'tai kong hui shi',
+    '一起向未来':'yi qi xiang wei lai',
+    '中华民族现代文明':'zhong hua min zu xian dai wen ming',
+    '全球文明倡议':'quan qiu wen ming chang yi',
+    '数字中国':'shu zi zhong guo',
+    '杭州亚运会':'hang zhou ya yun hui',
+    '神舟十七号':'shen zhou shi qi hao',
+    '巴黎奥运会':'ba li ao yun hui',
+    '全球南方':'quan qiu nan fang',
+    '不抛弃不放弃':'bu pao qi bu fang qi',
+    '口红效应':'kou hong xiao ying',
+    '文明互鉴':'wen ming hu jian',
+    '智能向善':'zhi neng xiang shan',
+    '银发力量':'yin fa li liang',
+    '新职人':'xin zhi ren',
+    '数智生活':'shu zhi sheng huo',
+    '爱达未来':'ai da wei lai',
+    '嫦娥一号':'chang e yi hao',
+    '嫦娥二号':'chang e er hao',
+    '天宫二号':'tian gong er hao',
+    '天舟一号':'tian zhou yi hao',
+    '上海世博会':'shang hai shi bo hui',
+    '广州亚运会':'guang zhou ya yun hui',
+    '大众创业万众创新':'da zhong chuang ye wan zhong chuang xin',
+    '两学一做':'liang xue yi zuo',
+    '里约奥运会':'li yue ao yun hui',
+    '中国好声音':'zhong guo hao sheng yin',
+    '舌尖上的中国':'she jian shang de zhong guo',
+    '最炫民族风':'zui xuan min zu feng',
+    '爸爸去哪儿':'ba ba qu na er',
+    '卡塔尔世界杯':'ka ta er shi jie bei',
+    '踔厉奋发勇毅前行':'chuo li fen fa yong yi qian xing',
+    '不忘初心砥砺奋进':'bu wang chu xin di li fen jin',
+    '人民至上生命至上':'ren min zhi shang sheng ming zhi shang',
+    '碳达峰碳中和':'tan da feng tan zhong he',
+    '百年未有之大变局':'bai nian wei you zhi da bian ju',
+    '人工智能大模型':'ren gong zhi neng da mo xing',
+}
+# 谚语、歇后语、成语与惯用语的审阅白名单在 tools/wiktionary-idioms.tsv。
+# The reviewed proverbs, xiehouyu, chengyu and idioms are listed in tools/wiktionary-idioms.tsv.
+IDIOMS=[line.split('\t') for line in (ROOT/'tools/wiktionary-idioms.tsv').read_text(encoding='utf-8').splitlines()
+    if line and not line.startswith('#')]
 REFUSED={'derogatory','vulgar','offensive','pejorative','euphemistic','euphemism','politics','ethnic slur','slur',
     'sexual','dysphemistic','sarcastic','swear word','obscene','misogynistic','racist','homophobic'}
 
@@ -170,20 +276,26 @@ def get(url,params=None):
             if attempt==3:raise
             time.sleep(3+attempt*3)
 
-def fetch(cache,manifest):
-    cache.mkdir(parents=True,exist_ok=True)
-    for key,(_,oldid) in WIKIPEDIA_PAGES.items():
-        (cache/f'wikipedia-{key}.wiki').write_bytes(get('https://zh.wikipedia.org/w/index.php?'+urllib.parse.urlencode(
-            {'oldid':oldid,'action':'raw'})))
+def revisions(revids):
     pages={}
-    revids=sorted({str(row[1]) for row in WIKTIONARY.values()})
     for i in range(0,len(revids),50):
         reply=json.loads(get('https://en.wiktionary.org/w/api.php',{'action':'query','prop':'revisions','rvprop':'ids|content',
             'rvslots':'main','revids':'|'.join(revids[i:i+50]),'format':'json','formatversion':'2'}))
         for page in reply['query']['pages']:
             for rev in page['revisions']:
                 pages[page['title']]={'revid':rev['revid'],'text':rev['slots']['main']['content']}
+        time.sleep(1)
+    return pages
+
+def fetch(cache,manifest):
+    cache.mkdir(parents=True,exist_ok=True)
+    for key,(_,oldid) in WIKIPEDIA_PAGES.items():
+        (cache/f'wikipedia-{key}.wiki').write_bytes(get('https://zh.wikipedia.org/w/index.php?'+urllib.parse.urlencode(
+            {'oldid':oldid,'action':'raw'})))
+    pages=revisions(sorted({str(row[1]) for row in WIKTIONARY.values()}))
     (cache/'wiktionary-slang.json').write_text(json.dumps(pages,ensure_ascii=False,sort_keys=True,indent=0)+'\n',encoding='utf-8')
+    (cache/'wiktionary-idioms.json').write_text(json.dumps(revisions(sorted({row[3] for row in IDIOMS})),ensure_ascii=False,
+        sort_keys=True,indent=0)+'\n',encoding='utf-8')
 
 def toneless(value):
     value=unicodedata.normalize('NFD',value.lower()).replace('u\u0308','v').replace('u:','v')
@@ -213,11 +325,61 @@ def wiktionary_rows(pages):
         assert letters==reviewed.replace(' ',''),f'{title}: pinyin {letters} != {reviewed}'
         yield word,reviewed
 
-def wikipedia_rows(texts):
+def mandarin(section,count):
+    """词条的普通话拼音，按音节切开取前 count 个；「一」「不」的变调简写还原成 yi、bu，逗号分开的另一读音不取。
+    The entry's Mandarin pinyin cut into syllables, first `count` of them; the 一/不 sandhi shorthand becomes yi/bu,
+    and an alternative reading after a comma is ignored."""
+    pron=re.search(r'\{\{zh-pron[^}]*?\|m=([^|}\n]*)',section,re.S)
+    assert pron,'no Mandarin pronunciation'
+    raw=','.join(p for p in pron.group(1).split(';')[0].split(',') if '=' not in p).replace('一',' yi ').replace('不',' bu ')
+    syllables,stops=[],set()
+    for clause in toneless(raw).split(','):
+        for token in clause.split():
+            syllables+=segment(re.sub(r'[^a-z]','',token))
+        stops.add(len(syllables))
+    assert len(syllables)==count or count in stops,f'pinyin {raw} does not cover {count} characters'
+    return ' '.join(syllables[:count])
+
+def segment(letters):
+    """把连写的拼音切成音节（尽量长的切法优先）。 Split run-together pinyin into syllables, longest first."""
+    if not letters:return []
+    for size in range(min(6,len(letters)),0,-1):
+        if letters[:size] in SYLLABLES:
+            try:return [letters[:size]]+segment(letters[size:])
+            except AssertionError:pass
+    raise AssertionError(f'cannot split {letters}')
+
+def idiom_rows(pages):
+    for category,word,title,revid,reviewed in IDIOMS:
+        page=pages[title]
+        assert page['revid']==int(revid),f'{title}: revision {page["revid"]} != {revid}'
+        section=chinese_section(page['text'])
+        labels={l.strip() for m in re.findall(r'\{\{(?:lb|lbl|label)\|zh\|([^}]*)\}\}',section) for l in m.split('|')}
+        assert not labels&REFUSED,f'{title}: labelled {labels&REFUSED}'
+        assert mandarin(section,len(word))==reviewed,f'{title}: pinyin differs from {reviewed}'
+        if len(word)<=MAX_SYLLABLES:
+            yield word,reviewed
+            continue
+        # 客户端一个词最多 10 个音节：长谚语按原文的逗号拆成分句，没有逗号的不收。
+        # Clients match at most 10 syllables per word: long sayings split at the entry's commas; without commas they are dropped.
+        syllables=reviewed.split();at=0
+        for size in (len(c) for c in re.split(r'[，,；;、：:—\s]+',title) if c):
+            if size>=4 and size<=MAX_SYLLABLES:yield word[at:at+size],' '.join(syllables[at:at+size])
+            at+=size
+
+def news_rows(texts):
+    plain=[compact(texts[key]) for key in ('hypd','ywjz')]
+    for word,reviewed in NEWS.items():
+        assert any(word in text for text in plain),f'{word}: not in the pinned yearly lists'
+        yield word,reviewed
+
+def compact(text):
     # 去掉链接、繁简标记和标点再找，「世界那么大，我想去看看」也能对上。
     # Search without link markup, conversion marks and punctuation so comma-split phrases still match.
-    plain={key:re.sub(r'[\s，,、“”"]','',re.sub(r'-\{(.*?)\}-',r'\1',re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]',r'\1',text)))
-        for key,text in texts.items()}
+    return re.sub(r'[\s，,、“”"]','',re.sub(r'-\{(.*?)\}-',r'\1',re.sub(r'\[\[(?:[^|\]]*\|)?([^\]]*)\]\]',r'\1',text)))
+
+def wikipedia_rows(texts):
+    plain={key:compact(text) for key,text in texts.items()}
     for word,(page,form,reviewed) in WIKIPEDIA.items():
         assert form in plain[page],f'{form}: not in the pinned {WIKIPEDIA_PAGES[page][0]}'
         yield word,reviewed
@@ -228,22 +390,24 @@ def main():
         fetch(Path(sys.argv[2]),manifest);return
     cache=Path(sys.argv[1])
     sources={s['id']:s for s in manifest['sources']}
-    for source in ('wiktionary-slang','wikipedia-slang'):
+    for source in ('wiktionary-slang','wikipedia-slang','wikipedia-news','wiktionary-idioms'):
         for name,digest in sources[source]['sha256'].items():
             assert hashlib.sha256((cache/name).read_bytes()).hexdigest()==digest,f'upstream hash: {name}'
     # 手工词表已有的词不重复导入。 Skip words the hand-curated lists already carry.
     taken={line.split('\t')[0] for path in (ROOT/'words').glob('*.tsv') if not path.name.startswith('imported-')
         for line in path.read_text(encoding='utf-8').splitlines() if line and not line.startswith('#')}
     pages=json.loads((cache/'wiktionary-slang.json').read_text(encoding='utf-8'))
-    batches=[('wiktionary-slang',wiktionary_rows(pages)),
-        ('wikipedia-slang',wikipedia_rows({key:(cache/f'wikipedia-{key}.wiki').read_text(encoding='utf-8') for key in WIKIPEDIA_PAGES}))]
-    for source,rows in batches:
+    texts={key:(cache/f'wikipedia-{key}.wiki').read_text(encoding='utf-8') for key in WIKIPEDIA_PAGES}
+    idioms=json.loads((cache/'wiktionary-idioms.json').read_text(encoding='utf-8'))
+    batches=[('wiktionary-slang',wiktionary_rows(pages),200),('wikipedia-slang',wikipedia_rows(texts),200),
+        ('wikipedia-news',news_rows(texts),200),('wiktionary-idioms',idiom_rows(idioms),150)]
+    for source,rows,weight in batches:
         kept=[]
         for word,py in rows:
             if word in taken:continue
             taken.add(word);kept.append((word,py))
         output=f'# source: {source}; CC BY-SA 4.0, see sources.json and SOURCES.md\n'+''.join(
-            f'{w}\t{py}\t200\t{ADDED}\t\t{source}\n' for w,py in sorted(kept))
+            f'{w}\t{py}\t{weight}\t{ADDED}\t\t{source}\n' for w,py in sorted(kept))
         (ROOT/f'words/imported-{source}.tsv').write_text(output,encoding='utf-8')
         print(source,len(kept),hashlib.sha256(output.encode()).hexdigest())
 
