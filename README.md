@@ -32,7 +32,7 @@ https://raw.githubusercontent.com/<owner>/weavetext-hotwords/dist/hotwords.tsv.s
 
 ## 许可
 
-自主整理的数据以 CC0 1.0 发布。导入的万象数据保留 CC BY 4.0，THUOCL 保留 MIT，注音派生数据保留万象的 CC BY 4.0；来源、固定版本、转换说明和许可证见 [SOURCES.md](SOURCES.md)。发布文件注释头携带署名与 MIT 声明，不能把整个合并词表理解为 CC0。收录时只加入公开常见的词语。
+自主整理的数据（含网络热梗）以 CC0 1.0 发布。导入的万象数据保留 CC BY 4.0，THUOCL 保留 MIT，维基词典与维基百科的网络用语保留 CC BY-SA 4.0，注音派生数据保留万象的 CC BY 4.0；来源、固定版本、转换说明和许可证见 [SOURCES.md](SOURCES.md)。发布文件注释头携带署名与 MIT 声明，不能把整个合并词表理解为 CC0。收录时只加入公开常见的词语。
 
 ---
 
@@ -46,4 +46,4 @@ over common words.
 Add a TAB-separated row to a monthly file under `words/` (word, toneless pinyin with spaces and `v` for `ü`,
 weight 1–1000, date added, optional expiry, optional note) and open a pull request; CI validates it. Merges to
 `main` and a daily run build, sign and push `dist/hotwords.tsv` + `.sig` to the `dist` branch. The signing key lives
-in the `HOTWORDS_SIGNING_KEY` secret (base64 of the raw 32-byte private key). Independently curated terms are CC0 1.0. Imported Wanxiang data remain CC BY 4.0 and THUOCL data retain MIT; annotation uses Wanxiang CC BY 4.0 data. See SOURCES.md and NOTICE for attribution, pinned revisions and transformations. The merged file is not wholly CC0.
+in the `HOTWORDS_SIGNING_KEY` secret (base64 of the raw 32-byte private key). Independently curated terms (internet memes included) are CC0 1.0. Imported Wanxiang data remain CC BY 4.0, THUOCL data retain MIT, and internet slang from Wiktionary and Wikipedia stays CC BY-SA 4.0; annotation uses Wanxiang CC BY 4.0 data. See SOURCES.md and NOTICE for attribution, pinned revisions and transformations. The merged file is not wholly CC0.

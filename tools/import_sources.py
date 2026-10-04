@@ -26,6 +26,8 @@ def rows(path):
 def main():
     baseline,cache=map(Path,sys.argv[1:])
     manifest=json.loads((ROOT/'sources.json').read_text())
+    # 维基来源由 import_wiki.py 处理。 Wiki sources are handled by import_wiki.py.
+    manifest['sources']=[item for item in manifest['sources'] if item['id'] in ('wanxiang-new','thuocl-it')]
     for item in manifest['sources']:
         name='wx-jichu.yaml' if item['id']=='wanxiang-new' else 'THUOCL_IT.txt'
         assert hashlib.sha256((cache/name).read_bytes()).hexdigest()==item['sha256'],f'upstream hash: {name}'

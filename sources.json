@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "baseline": {
     "project": "amzxyz/rime-wanxiang",
     "revision": "516b1bb66bdce1fd5785f5481c415f13ff736548",
@@ -47,6 +47,32 @@
       "annotation": "weave-dict dictgen annotate, baseline Wanxiang CC-BY-4.0; strip tones, filter non-CJK and built-in duplicates, cap frequency",
       "output": "words/imported-thuocl-it.tsv",
       "output_sha256": "d361bb40daea7b492bbb98f8edf06d3145d8019213ff1db4934f9c1a6ecdbd58"
+    },
+    {
+      "id": "wiktionary-slang",
+      "project": "English Wiktionary, Category:Chinese internet slang",
+      "url": "https://en.wiktionary.org/wiki/Category:Chinese_internet_slang",
+      "revision": "per entry, pinned in tools/import_wiki.py",
+      "license": "CC-BY-SA-4.0",
+      "file": "wiktionary-slang.json",
+      "sha256": "4000ff61ca6379967aac7a575a0029cd6dde89553219cde66eda404ae38cc472",
+      "rows": 63,
+      "annotation": "reviewed allowlist; Mandarin pinyin from each entry's zh-pron, toneless; entries labelled vulgar/derogatory/offensive refused; built-in and hand-curated duplicates removed",
+      "output": "words/imported-wiktionary-slang.tsv",
+      "output_sha256": "e3daf78dec9a011035d76f41fe2328509584be53e66aedf9dcf943247d9d8a09"
+    },
+    {
+      "id": "wikipedia-slang",
+      "project": "Chinese Wikipedia, 中国大陆网络用语列表",
+      "url": "https://zh.wikipedia.org/w/index.php?oldid=94713536",
+      "revision": "94713536",
+      "license": "CC-BY-SA-4.0",
+      "file": "wikipedia-slang.wiki",
+      "sha256": "13e6f9b9a7f26dbf0efd0612db9eef241480a1aa9ee64b078342d50c6eb62b3c",
+      "rows": 24,
+      "annotation": "reviewed allowlist from everyday-language sections; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
+      "output": "words/imported-wikipedia-slang.tsv",
+      "output_sha256": "160f5c713ca6ecec9d033f1c9c379f1146ed012a26337718da1cf6a7e56c2846"
     }
   ],
   "annotation_sha256": "b2c236e6b67ca60e4457ccf2bbe5c358c35f9e6db4e84f848be6250fbca3f401"

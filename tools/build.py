@@ -82,7 +82,7 @@ def main():
                 path=ROOT/source["output"]
                 if hashlib.sha256(path.read_bytes()).hexdigest()!=source["output_sha256"]:
                     errors.append(f"{path.name}: imported data changed; reproduce and review sources.json")
-            for name in ["NOTICE","SOURCES.md","LICENSES/CC-BY-4.0.txt","LICENSES/THUOCL-MIT.txt"]:
+            for name in ["NOTICE","SOURCES.md","LICENSES/CC-BY-4.0.txt","LICENSES/CC-BY-SA-4.0.txt","LICENSES/THUOCL-MIT.txt"]:
                 if not (ROOT/name).is_file():errors.append(f"missing attribution: {name}")
         except (ValueError,KeyError,OSError) as e:
             errors.append(f"source manifest: {e}")

@@ -6,6 +6,10 @@ Wanxiang revision: 908108a09121aaf7ba2cad1fcfbe71b427ea9090; baseline/annotation
 Modified: selected supplementary words, removed built-in duplicates, normalized pinyin, adjusted frequency.
 THUOCL: THUNLP, https://github.com/thunlp/THUOCL; revision a30ce79d895d01ab5132a5c74c29703ff7efb4cc.
 THUOCL changes: selected IT terms, annotated with Wanxiang data under CC BY 4.0, normalized and weighted.
+Wiktionary: English Wiktionary contributors, Category:Chinese internet slang, https://en.wiktionary.org/wiki/Category:Chinese_internet_slang
+Wikipedia: Chinese Wikipedia contributors, 中国大陆网络用语列表, https://zh.wikipedia.org/w/index.php?oldid=94713536
+Wiktionary/Wikipedia license: CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/; revisions pinned in sources.json and tools/import_wiki.py.
+Wiki changes: selected reviewed terms, converted to simplified Chinese, toneless pinyin, removed built-in duplicates. These rows stay CC BY-SA 4.0.
 MIT License
 
 Copyright (c) 2018 THUNLP
