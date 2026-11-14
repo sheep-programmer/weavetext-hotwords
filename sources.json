@@ -1,0 +1,160 @@
+{
+  "generated": "2026-10-03",
+  "baseline": {
+    "project": "amzxyz/rime-wanxiang",
+    "revision": "516b1bb66bdce1fd5785f5481c415f13ff736548",
+    "files": [
+      "dicts/zi.dict.yaml",
+      "dicts/jichu.dict.yaml",
+      "dicts/diming.dict.yaml",
+      "dicts/renming.dict.yaml",
+      "dicts/mingren.dict.yaml",
+      "dicts/shici.dict.yaml",
+      "dicts/lianxiang.dict.yaml",
+      "dicts/duoyin.dict.yaml"
+    ],
+    "sha256": {
+      "zi.dict.yaml": "d69bfa6c4a225b589ca5c59cf6e0c2ad0a2969ad5935bac571e2be0825c246e1",
+      "jichu.dict.yaml": "1f287c9e8a5b5fbc78fe931e94379bcf294d7547fc667461e49c41c1e9ad32e6",
+      "diming.dict.yaml": "3cb56ab22adcc62a73192fc5662cae2b7dab7f07cf1a872c79379cf035a3b33f",
+      "renming.dict.yaml": "0e4c4e2ce23e42f7ef87acedb9edba9f25c18b5c590707e3863bd9ea765686a4",
+      "mingren.dict.yaml": "80f169636d768114e97cf11ccf652333ada4db2e235f47aeba7baf808256338f",
+      "shici.dict.yaml": "376f47b5498c05bbcb73334218371aae8771ed9d73ecf60567a06c281a161018",
+      "lianxiang.dict.yaml": "2e77347e32318d77320abdee105db630620e7e6a11fd943ccde5e80a1536f41f",
+      "duoyin.dict.yaml": "3e3b379c7a66ccc8ab22f9f5efe482fdb2d0fb7ad8b7cb33acc5cc9450c79bb6"
+    }
+  },
+  "sources": [
+    {
+      "id": "wanxiang-new",
+      "project": "amzxyz/rime-wanxiang",
+      "revision": "908108a09121aaf7ba2cad1fcfbe71b427ea9090",
+      "license": "CC-BY-4.0",
+      "file": "dicts/jichu.dict.yaml",
+      "sha256": "9499687cfe3b90d69833e4dce9b2b8d3e1472f9ba0f7da32f40aa0c76482f325",
+      "rows": 24,
+      "output": "words/imported-wanxiang-new.tsv",
+      "output_sha256": "28dca8976650c50015ecabc87a75fb482d5ea21bc4ae4c8827c61993cee46508"
+    },
+    {
+      "id": "thuocl-it",
+      "project": "thunlp/THUOCL",
+      "revision": "a30ce79d895d01ab5132a5c74c29703ff7efb4cc",
+      "license": "MIT",
+      "file": "data/THUOCL_IT.txt",
+      "sha256": "e8cd42c9f5559735fa3bfb91515cbe051f991efd4a803038a1d5c0da85af3526",
+      "rows": 1200,
+      "annotation": "weave-dict dictgen annotate, baseline Wanxiang CC-BY-4.0; strip tones, filter non-CJK and built-in duplicates, cap frequency",
+      "output": "words/imported-thuocl-it.tsv",
+      "output_sha256": "d361bb40daea7b492bbb98f8edf06d3145d8019213ff1db4934f9c1a6ecdbd58"
+    },
+    {
+      "id": "wiktionary-slang",
+      "project": "English Wiktionary, Category:Chinese internet slang",
+      "url": "https://en.wiktionary.org/wiki/Category:Chinese_internet_slang",
+      "revision": "per entry, pinned in tools/import_wiki.py",
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wiktionary-slang.json"
+      ],
+      "sha256": {
+        "wiktionary-slang.json": "695554ddba75f2ddedf4c0e9c7a5714473a6b4145e43d6337106ebfa1c8d2bff"
+      },
+      "rows": 69,
+      "annotation": "reviewed allowlist; Mandarin pinyin from each entry's zh-pron, toneless; entries labelled vulgar/derogatory/offensive refused; built-in and hand-curated duplicates removed",
+      "output": "words/imported-wiktionary-slang.tsv",
+      "output_sha256": "71b9b1e0aa6707c56d1176246e8a58fc0e108f053ce446a66ae16de8bec699c3"
+    },
+    {
+      "id": "wikipedia-slang",
+      "project": "Chinese Wikipedia: 中国大陆网络用语列表, 汉语盘点, 咬文嚼字",
+      "url": "https://zh.wikipedia.org/w/index.php?oldid=94713536",
+      "revision": {
+        "中国大陆网络用语列表": 94713536,
+        "汉语盘点": 93299004,
+        "咬文嚼字": 94531753
+      },
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wikipedia-list.wiki",
+        "wikipedia-hypd.wiki",
+        "wikipedia-ywjz.wiki"
+      ],
+      "sha256": {
+        "wikipedia-list.wiki": "13e6f9b9a7f26dbf0efd0612db9eef241480a1aa9ee64b078342d50c6eb62b3c",
+        "wikipedia-hypd.wiki": "39fda6c1d0de0bcfb450d8e711a6d5b36a7a9d03b6bd89a720d0af4eca92db68",
+        "wikipedia-ywjz.wiki": "f9ecb3951d7fbb4f0a7f666667f357edf003a3098fcad8308f806dabcb64721d"
+      },
+      "rows": 57,
+      "annotation": "reviewed allowlist from the slang list's everyday-language sections and the yearly top-ten internet terms/buzzwords; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
+      "output": "words/imported-wikipedia-slang.tsv",
+      "output_sha256": "c1d840edd91a0080a690ab7f0336891255f9101d9da0319c5b0105bdfe76c234"
+    },
+    {
+      "id": "wikipedia-news",
+      "project": "Chinese Wikipedia: 汉语盘点, 咬文嚼字",
+      "url": "https://zh.wikipedia.org/w/index.php?oldid=93299004",
+      "revision": {
+        "汉语盘点": 93299004,
+        "咬文嚼字": 94531753
+      },
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wikipedia-hypd.wiki",
+        "wikipedia-ywjz.wiki"
+      ],
+      "sha256": {
+        "wikipedia-hypd.wiki": "39fda6c1d0de0bcfb450d8e711a6d5b36a7a9d03b6bd89a720d0af4eca92db68",
+        "wikipedia-ywjz.wiki": "f9ecb3951d7fbb4f0a7f666667f357edf003a3098fcad8308f806dabcb64721d"
+      },
+      "rows": 93,
+      "annotation": "reviewed allowlist of neutral current-affairs, science, culture and sport terms from the yearly lists; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0) checked by hand",
+      "output": "words/imported-wikipedia-news.tsv",
+      "output_sha256": "da45c04d0cfd116bc220178c573aefc723d1e35b36e56a397b0ddee94299cc8c"
+    },
+    {
+      "id": "wiktionary-idioms",
+      "project": "English Wiktionary: Chinese proverbs, xiehouyu, chengyu and idioms",
+      "url": "https://en.wiktionary.org/wiki/Category:Chinese_proverbs",
+      "revision": "per entry, pinned in tools/wiktionary-idioms.tsv",
+      "license": "CC-BY-SA-4.0",
+      "file": [
+        "wiktionary-idioms.json"
+      ],
+      "sha256": {
+        "wiktionary-idioms.json": "ebeca28bad0e9383ad9a017e92050845f469bb2a70e941cf0cbe6e03aed1a476"
+      },
+      "rows": 985,
+      "annotation": "reviewed allowlist; Mandarin pinyin from each entry (一/不 sandhi shorthand restored), toneless; labelled vulgar/derogatory/offensive/dialect-only/obsolete entries and alternative forms refused; traditional entries converted with OpenCC t2s",
+      "output": "words/imported-wiktionary-idioms.tsv",
+      "output_sha256": "9e69cde62da1f355f717ac0bb42d1f927c46a660f043bf67a5d2a8d7df930d33"
+    },
+    {
+      "id": "poetry",
+      "project": "chinese-poetry/chinese-poetry",
+      "url": "https://github.com/chinese-poetry/chinese-poetry/tree/b8594f81a89752241442f2ce267d6f66f96704ee",
+      "revision": "b8594f81a89752241442f2ce267d6f66f96704ee",
+      "license": "MIT",
+      "file": [
+        "蒙学/zengguangxianwen.json",
+        "蒙学/zhuzijiaxun.json",
+        "蒙学/qianjiashi.json",
+        "全唐诗/唐诗三百首.json",
+        "宋词/宋词三百首.json"
+      ],
+      "sha256": {
+        "zengguangxianwen.json": "b172194c227f1dcccdd2598d23f7c17b5906504085b142f482b35f5fca982fcb",
+        "zhuzijiaxun.json": "f5f45ed43cf4bb866a41616401ce218fe1db4fa019dde6f69ed8f91b6f4bd8b6",
+        "qianjiashi.json": "cf34d01ed29528052da5d96543e725ab67814a6cb093183808c889400ff62417",
+        "唐诗三百首.json": "d77a145f7470da2ed2f79515944563c062ffc43fceda07f195a36ead66b7e5c7",
+        "宋词三百首.json": "ca5d74f7fdb9d5a6acc22a7c8b4395228cad4bb8be53df44c19ba83ab6983b20",
+        "poetry-annotated.yaml": "06c1925646ff45ebf5586892882b5487136e124c128ff864b6edb3897ac9f6cf"
+      },
+      "rows": 2785,
+      "annotation": "OpenCC 1.4.2 t2s, cut at punctuation into 4-9 character GB2312 lines, built-in duplicates removed; pinyin by weave-dict dictgen annotate (Wanxiang CC-BY-4.0)",
+      "output": "words/imported-poetry.tsv",
+      "output_sha256": "909a9ae9284e7fb51c6cb1e710603f3e4711a522f530e0c6e30b345fcaf1f570"
+    }
+  ],
+  "annotation_sha256": "b2c236e6b67ca60e4457ccf2bbe5c358c35f9e6db4e84f848be6250fbca3f401"
+}
